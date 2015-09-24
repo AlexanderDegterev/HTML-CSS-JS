@@ -1,0 +1,776 @@
+ /*----------ОСНОВНЫЕ СТИЛИ----------*/
+ {
+margin: 0px; /*Устанавливаем margin 0 для всего сайта*/
+padding: 0px; /*Устанавливаем padding 0 для всего сайта*/
+}
+ input[type="text"] {
+     border: 1px solid #cccccc; /*цвет рамки*/
+     border-radius: 3px; /*закругление углов (общее)*/
+     -webkit-border-radius: 3px; /*закругление углов (Google Chrome)*/
+     -moz-border-radius: 3px; /*закругление углов (FireFox)*/
+     -khtml-border-radius: 3px; /*закругление углов (Safari)*/
+     background: #ffffff !important; /* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+     outline: none; /* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+     height: 17px; /* высота на свое усмотрение*/
+     width: 125px; /* ширина на свое усмотрение*/
+     color: grey; /*цвет шрифта в обычном состоянии*/
+     font-size: 14px; /* Размер шрифта*/
+     font-family: Tahoma; /* Стиль шрифта*/
+ }
+ @font-face{
+     font-family: Test; /* Имя шрифта */
+     /*font-style: italic;*/
+     src: url(Fonts/Scada-Regular.ttf);
+ }
+body {
+font-family: Verdana, Arial, Helvetica, sans-serif; /*шрифты веб-сайта*/
+background-color: white ; /*цвет фона веб-сайта*/
+color: #999a9a; /*цвет текста по умолчанию*/
+background-image: url(images/bg.png); /*фоновое изображение*/
+background-repeat: repeat-y; /*повтор (копирование) фонового изображения по оси Y*/
+background-position: center; /*центрируем фон*/
+margin: 0px;
+padding: 0px;
+}
+ #container {
+ width: 900px;
+ margin-top: 0px;
+ margin-right: auto;
+ margin-left: auto;
+ }
+  /*----------Стили заголовка----------*/
+ #header {
+ clear:both;
+ position: relative;
+ display: table;
+ margin: 0 auto;
+ width: 900px;
+ height: 33px;
+ background-image: url(images/Header_900_33.png);
+ background-repeat: no-repeat;
+ /*float: left;*/
+ }
+ #stub {
+     position: relative;
+     height: 100%;
+     display: table-cell;
+     vertical-align: middle;
+ }
+ /*#header_text{*/
+
+ /*}*/
+ /*.header_login ul{*/
+ /*margin: 0px;*/
+ /*padding: 0px;*/
+ /*}*/
+ /*.header_login li{*/
+ /*display: inline;*/
+ /*list-style-type: none;*/
+ /*padding-left: 650px;*/
+ /*}*/
+
+ a.login {
+     text-decoration: none;
+     font-family:Geneva, Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     color: lightgrey;
+     list-style-type: none;
+     vertical-align: middle;
+     /*margin-top: 5px;*/
+     margin-left: 690px;
+     /*padding-top: 5px;*/
+     padding-bottom: 2px;
+ }
+ a.login:hover {
+ color: slategrey;
+ border-bottom-width: medium;
+ border-bottom-style: solid;
+ border-bottom-color: #0096ff;
+ }
+ li.header_login a{
+     text-decoration: none;
+     font-family:Geneva, Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     color: lightgrey;
+     list-style-type: none;
+     margin-left: 25px;
+     padding-left: 650px;
+     padding-bottom: 2px;
+ }
+ li.header_login a:hover{
+     color: slategrey;
+     border-bottom-width: medium;
+     border-bottom-style: solid;
+     border-bottom-color: #0096ff;
+ }
+ p.header {
+     float: right;
+     color: lightgrey ; /*цвет текста заголовка внутри тега H1*/
+     /*margin-left: 20px;*/
+     font-size: 14px; /*устанавливаем размер текста внутри тега H1*/
+     /*background-image: url(images/StrelkaOk.png); *//*Добавляем изображение-указатель для загловка внутри тега H1*/
+     /*background-repeat: no-repeat; *//*Отмена копировании изображения-указателя*/
+     padding-right: 30px; /*Добавляем отступ влево для заголовка в 30 пикселей*/
+     /*line-height: 28px; *//*установка высоту строки заголовка внутри тега H1*/
+ }
+ #top-elements {
+ float: left;
+ width: 900px;
+ padding-top: 23px;
+ }
+  /*----------Стили логотипа----------*/
+ #logo {
+ float: left;
+ padding-left: 50px;
+ height: 50px;
+ width: 172px;
+ }
+  /*----------Стили навигационной панели----------*/
+ #nav-bar {
+ background-image: url(images/bg-nav.png);
+ background-repeat: no-repeat;
+ /*background-color: #0000ff;*/
+ float: left;
+ /*border-style: double;*/
+ vertical-align: middle;
+ margin-left: 50px;
+ margin-top: 63px;
+ height: 43px;
+ width: 820px;
+ margin-bottom: 30px;
+ }
+
+ #nav-bar-text {
+     /*background-color: #ff0000;*/
+     position: relative;
+     /*left: 400px;*/
+     top:-15%;
+     /*border-style: double;*/
+     /*height: 30px;*/
+     /*width: 810px;*/
+     /*display: table-cell;*/
+     /*vertical-align: middle;*/
+
+ }
+ #nav-bar-img{
+     position: relative;
+     left: 93%;
+     top: -42px;
+     z-index:10;
+     /*border-style: double;*/
+     height: 50px;
+     width: 50px;
+     /*background-image: url(images/StrelkaVpravo.png);*/
+     /*background-repeat: no-repeat;*/
+ }
+ .navlinks ul {
+ /*margin-top: 5px;*/
+ margin: 0px;
+ /*padding-top: 3px;*/
+ padding: 0px;
+ }
+ .navlinks li {
+ display: inline;
+ list-style-type: none;
+ padding-left: 1px;
+}
+ .navlinks li a {
+ text-decoration: none;
+ font-family:Geneva, Arial, Helvetica, sans-serif;
+ font-size: 14px;
+ font-weight: bold;
+ color: darkslategrey;
+ margin-left: 25px;
+ padding-bottom: 2px;
+ }
+ .navlinks li a:hover {
+ color: slategrey;
+ border-bottom-width: medium;
+ border-bottom-style: solid;
+ border-bottom-color: #0096ff;
+ }
+ .navlinks li.current a{
+ border-bottom-width: medium;
+ border-bottom-style: solid;
+ border-bottom-color: #0096ff;
+ }
+ .navlinks img {
+     position: relative;
+     margin-left: -15px;
+
+ }
+ .navlinksLeft ul {
+     margin: auto;
+     padding-left: 15px;
+     /*padding: auto;*/
+ }
+ .navlinksLeft li {
+     /*display: inline;*/
+     list-style-type: disc;
+     padding-left: 1px;
+ }
+ .navlinksLeft li a {
+     text-decoration: none;
+     font-family:Geneva, Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     color: darkslategrey;
+     margin-left: 25px;
+     padding-bottom: 2px;
+ }
+ .search {
+     padding-left: 15px;
+ }
+ .LiRight ul {
+     margin: auto;
+     margin-left: 15px;
+     padding-left: 25px;
+ }
+ .LiRight li {
+     padding-left: 50px;
+     text-decoration: none;
+     font-family:Geneva, Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     color: darkslategrey;
+     padding-bottom: 2px;
+ }
+ .nav-bar-form {
+     padding-left: 100px ;
+     background-color: #ff0000;
+ }
+
+ /*.input{*/
+ /*border: 1px solid #cccccc; *//*цвет рамки*/
+ /*border-radius: 3px; *//*закругление углов (общее)*/
+ /*-webkit-border-radius: 3px; *//*закругление углов (Google Chrome)*/
+ /*-moz-border-radius: 3px; *//*закругление углов (FireFox)*/
+ /*-khtml-border-radius: 3px; *//*закругление углов (Safari)*/
+ /*background: #ffffff !important; *//* желательно прописывать, так как в Chrome при сохранных данных оно может быть желтым*/
+ /*outline: none; *//* удаляет обводку в браузерах хром(желтая) и сафари(синяя)*/
+ /*height: 24px; *//* высота на свое усмотрение*/
+ /*width: 120px; *//* ширина на свое усмотрение*/
+ /*color: #cccccc; *//*цвет шрифта в обычном состоянии*/
+ /*font-size: 11px; *//* Размер шрифта*/
+ /*font-family: Tahoma; *//* Стиль шрифта*/
+ /*}*/
+
+
+ /*Кнопни*/
+ a.button101 {
+     background-image: url(images/StrelkaVpravo.png);
+     background-repeat: no-repeat;
+ }
+ a.button7 {
+     float: right;
+     display: inline-block;
+     color: white;
+     text-decoration: none;
+     padding: .5em 2em;
+     outline: none;
+     border-width: 2px 0;
+     border-style: solid none;
+     border-color: #FDBE33 #000 #D77206;
+     border-radius: 6px;
+     background: linear-gradient(#F3AE0F, #E38916) #E38916;
+     transition: 0.2s;
+ }
+ a.button7:hover { background: linear-gradient(#f5ae00, #f59500) #f5ae00; }
+ a.button7:active { background: linear-gradient(#f59500, #f5ae00) #f59500; }
+
+ .button10{
+     float: right;
+     text-decoration:none;
+     text-align:center;
+     padding:6px 15px;
+     border:solid 1px #004F72;
+     -webkit-border-radius:4px;
+     -moz-border-radius:4px;
+     border-radius: 4px;
+     font:18px Arial, Helvetica, sans-serif;
+     font-weight:bold;
+     color:#E5FFFF;
+     background-color:#43b9e0;
+     background-image: -moz-linear-gradient(top, #43b9e0 0%, #1ea1cc 100%);
+     background-image: -webkit-linear-gradient(top, #43b9e0 0%, #1ea1cc 100%);
+     background-image: -o-linear-gradient(top, #43b9e0 0%, #1ea1cc 100%);
+     background-image: -ms-linear-gradient(top, #43b9e0 0% ,#1ea1cc 100%);
+     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1ea1cc', endColorstr='#1ea1cc',GradientType=0 );
+     background-image: linear-gradient(top, #43b9e0 0% ,#1ea1cc 100%);
+     -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+     -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+     box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+
+ }.button10:hover{
+      padding:6px 15px;
+      border:solid 1px #004F72;
+      -webkit-border-radius:4px;
+      -moz-border-radius:4px;
+      border-radius: 4px;
+      font:18px Arial, Helvetica, sans-serif;
+      font-weight:bold;
+       color:#E5FFFF;
+       background-color:#3BA4C7;
+       background-image: -moz-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+       background-image: -webkit-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+       background-image: -o-linear-gradient(top, #3BA4C7 0%, #1982A5 100%);
+       background-image: -ms-linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);
+       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1982A5', endColorstr='#1982A5',GradientType=0 );
+       background-image: linear-gradient(top, #3BA4C7 0% ,#1982A5 100%);
+      -webkit-box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+      -moz-box-shadow: 0px 0px 2px #bababa,  inset 0px 0px 1px #ffffff;
+      box-shadow:0px 0px 2px #bababa, inset 0px 0px 1px #ffffff;
+  }
+  /*Конец кнопки*/
+ /*----------Стили около слайдера----------*/
+#O_Slider {
+    float: none; /*Устанавливаем положение текстового блока вправо*/
+    width: 900px; /*Устанавливаем размер текстового блока в 900 пикселей*/
+    height:450px;
+    padding-top: 10px;
+    /*margin-top: 100px;*/
+    margin-bottom: 20px; /*нижний отступ в 20 пикселей от края слоя для текстового блока*/
+}
+#Sl_Left {
+    float: none; /*Устанавливаем положение слоя с логотипом влево*/
+    padding-left: 50px;
+    height: 150px; /*Устанавливаем высоту слоя логотипа в 37 пикселей, которая равна высота изображения с логотипом*/
+    width: 241px; /*Устанавливаем ширину слоя логотипа в 270 пикселей, которая равна ширине изображения с логотипом*/
+}
+#Sl_Right {
+    float: right; /*Устанавливаем положение слоя с логотипом влево*/
+    padding-right: 40px;
+    /*margin-right: 35px;*/
+    height: 150px; /*Устанавливаем высоту слоя логотипа в 37 пикселей, которая равна высота изображения с логотипом*/
+    width: 569px; /*Устанавливаем ширину слоя логотипа в 270 пикселей, которая равна ширине изображения с логотипом*/
+}
+/* ----------Конец Стили около слайдера---------- */
+
+/* ----------Начало стиля первого  блока---------- */
+
+#first_left {
+    float: left;
+    margin-top: 5px;
+    margin-left: 27px;
+    height: 230px;
+    width: 264px;
+    /*background-color: mediumvioletred;*/
+}
+
+ h1.first_left {
+     padding-left: 43px;
+     color: #000000; /*цвет текста заголовка внутри тега H1*/
+     text-transform: uppercase; /*Устанавливаем текст внутри тега H1 в верхний регистр*/
+     font-family: Test;
+     /*font-family: Geneva, Arial, Helvetica, sans-serif;*/
+     /*font-style: italic;*/
+     font-size: 16px; /*устанавливаем размер текста внутри тега H1*/
+}
+ ul.first_left {
+     margin: 0px;
+     padding-left: 0px;
+     /*padding: auto;*/
+ }
+ .first_left li {
+     /*display: inline;*/
+     list-style-type: none;
+     padding-left: 0px;
+ }
+ .first_left li a {
+     text-decoration: none;
+     font-family:Geneva, Arial, Helvetica, sans-serif;
+     font-size: 14px;
+     font-weight: bold;
+     color: darkslategrey;
+     margin-left: 25px;
+     padding-bottom: 2px;
+ }
+#first_3{
+     float: left; /*Устанавливаем положение текстового блока*/
+     height: 270px;
+     width: 609px; /*Устанавливаем размер текстового блока в 900 пикселей*/
+     padding-top: 0px;
+     /*padding-right: 50px;*/
+     margin-top: 0px;
+     /*background: #88be14 ;*/
+     /*margin-bottom: 20px; *//*нижний отступ в 20 пикселей от края слоя для текстового блока*/
+}
+#first_3_image {
+     float: left; /*устанавливаем положение текстового блока влево*/
+    zoom: 1;
+    position: relative;
+    margin-top: 6px; /*выровнить с Н1*/
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    display: inline-block;
+    /*vertical-align: top;*/
+     width: 166px;
+     height: 155px;
+     opacity: 0.9; /*Прозрачность 90%*/
+     background-image: url(images/Home_svai.jpg); /*наше изображение #1*/
+     background-repeat: no-repeat;
+    behavior: url(css/PIE.htc)
+}
+#first_3_text {
+    float: left; /*устанавливаем положение текстового блока влево*/
+    position: relative;
+    width: 570px; /*Устанавливаем размер блока с текстом для текстового блока*/
+    text-align: justify;
+    margin-top: 0px; /*Верхний отступ для текстового блока*/
+    margin-left: 0px;
+    /*background-color: #ff0000;*/
+}
+h1.first_3 {
+    color: #000000; /*цвет текста заголовка внутри тега H1*/
+    text-transform: uppercase; /*Устанавливаем текст внутри тега H1 в верхний регистр*/
+    /*margin-left: 20px;*/
+    font-family: Test;
+    /*font-family: Geneva, Arial, Helvetica, sans-serif;*/
+    /*font-style: italic;*/
+    font-size: 16px; /*устанавливаем размер текста внутри тега H1*/
+    /*font-weight: bold;*/
+    /*background-image: url(images/StrelkaOk.png); *//*Добавляем изображение-указатель для загловка внутри тега H1*/
+    /*background-repeat: no-repeat; *//*Отмена копировании изображения-указателя*/
+    padding-left: 15px; /*Добавляем отступ влево для заголовка в 30 пикселей*/
+    line-height: 28px; /*установка высоту строки заголовка внутри тега H1*/
+    /*background-color: indianred;*/
+}
+p.first_3 {
+     color: #000000 ; /*цвет текста заголовка внутри тега H1*/
+     padding-left:180px ;
+     font-family: Test;
+     font-size: 16px; /*устанавливаем размер текста внутри тега H1*/
+    /*background-color: #ff0000;*/
+     /*padding-right: 20px;*/
+     /*padding: 3px;*/
+     /*background-image: url(images/StrelkaOk.png); *//*Добавляем изображение-указатель для загловка внутри тега H1*/
+     /*background-repeat: no-repeat; *//*Отмена копировании изображения-указателя*/
+     /*padding-left: 30px; *//*Добавляем отступ влево для заголовка в 30 пикселей*/
+     /*line-height: 28px; *//*установка высоту строки заголовка внутри тега H1*/
+}
+ul.first_3 {
+    padding-left: 200px;
+    list-style-type:disc;
+    font-family: Test;
+    font-size: 14px;
+}
+@font-face{
+     font-family: Myriad Pro;
+     /*font-style: italic;*/
+     src: url(Fonts/MyriadPro-Regular.otf) format("opentype");;
+}
+#ContentFirst {
+    float: right; /*Устанавливаем положение текстового блока вправо*/
+    width: 900px; /*Устанавливаем размер текстового блока в 900 пикселей*/
+    padding-left: 20px;
+    margin-bottom: 20px; /*нижний отступ в 20 пикселей от края слоя для текстового блока*/
+}
+h1.ContentFirst {
+     color: #000099 ; /*цвет текста заголовка внутри тега H1*/
+     text-transform: uppercase; /*Устанавливаем текст внутри тега H1 в верхний регистр*/
+     margin-left: 20px;
+     font-size: 18px; /*устанавливаем размер текста внутри тега H1*/
+     background-image: url(images/StrelkaOk.png); /*Добавляем изображение-указатель для загловка внутри тега H1*/
+     background-repeat: no-repeat; /*Отмена копировании изображения-указателя*/
+     padding-left: 30px; /*Добавляем отступ влево для заголовка в 30 пикселей*/
+     line-height: 28px; /*установка высоту строки заголовка внутри тега H1*/
+}
+/*h1.first{*/
+    /*color: #000099 ; *//*цвет текста заголовка внутри тега H1 */
+    /*text-transform: uppercase; *//*Устанавливаем текст внутри тега H1 в верхний регистр*/
+    /*margin-left: 20px;*/
+    /*font-size: 18px; *//*устанавливаем размер текста внутри тега H1*/
+    /*background-image: url(images/StrelkaOk.png); *//*Добавляем изображение-указатель для загловка внутри тега H1 */
+    /*background-repeat: no-repeat; *//*Отмена копировании изображения-указателя*/
+    /*padding-left: 30px; *//*Добавляем отступ влево для заголовка в 30 пикселей*/
+    /*line-height: 28px; *//*установка высоту строки заголовка внутри тега H1*/
+/*}*/
+#first_buttons {
+    height: 68px; /*устанавливаем фиксированную высоту*/
+    width: 34px; /*устанавливаем фиксированную ширину*/
+    margin-left: 0px; /*левый отступ НЕ РЕАГИРУЕТ*/
+    padding-top: 0px; /*отступ сверху НЕ РЕАГИРУЕТ*/
+    background: black; /*НЕ РАБОТАЕТ*/
+}
+/* ----------Конец стиля первого блока---------- */
+/* ----------Начало футера блока---------- */
+#footer{
+    clear:both;
+    width:900px;
+    height:50px;
+    background-image: url(images/Footer_image.png);
+    background-repeat: repeat-x;
+    /*background: #000000;*/
+}
+p.footer{
+    font-family: Verdana, Arial, Helvetica, sans-serif; /*шрифты веб-сайта*/
+    color: #999a9a; /*цвет текста по умолчанию*/
+    margin: 0 2em 0 2em;
+    font-style: italic;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    text-align: right;
+    padding-top: 8px;
+    line-height: 18px; /*Устанавливаем высоту строки по умолчанию*/
+    /*text-align: justify; *//*выравниваем текст по ширине параграфа*/
+
+}
+/* ----------Конец Фотера блока---------- */
+/* ----------Стили первого текстового блока---------- */
+#featured {
+    float: left; /*Устанавливаем положение текстового блока вправо*/
+    width: 900px; /*Устанавливаем размер текстового блока в 900 пикселей*/
+    /*padding-top: 200px;*/
+    margin-bottom: 20px; /*нижний отступ в 20 пикселей от края слоя для текстового блока*/
+}
+h1.featured {
+    color: #000000; /*цвет текста заголовка внутри тега H1*/
+    text-transform: uppercase; /*Устанавливаем текст внутри тега H1 в верхний регистр*/
+    font-family: Test;
+    /*font-family: Geneva, Arial, Helvetica, sans-serif;*/
+    /*font-style: italic;*/
+    font-size: 16px; /*устанавливаем размер текста внутри тега H1*/
+    /*background-image: url(images/StrelkaOk.png);*/ /*Добавляем изображение-указатель для загловка внутри тега H1*/
+    /*background-repeat: no-repeat; *//*Отмена копировании изображения-указателя*/
+    padding-left: 70px; /*Добавляем отступ влево для заголовка в 30 пикселей*/
+    line-height: 28px; /*установка высоту строки заголовка внутри тега H1*/
+}
+p.featured {
+    font-family: Verdana, Arial, Helvetica, sans-serif; /*шрифты веб-сайта*/
+    color: darkslategray; /*цвет текста по умолчанию*/
+    margin: 0 5em 0 5em;
+    /*font-style: italic;*/
+    font-size: 0.7em;
+    text-transform: uppercase;
+    padding-top: 7px;
+    line-height: 18px; /*Устанавливаем высоту строки по умолчанию*/
+    text-align: justify; /*выравниваем текст по ширине параграфа*/
+}
+
+ /*.featured-text {*/
+    /*float: right; *//*устанавливаем положение текстового блока влево*/
+    /*width: 400px; *//*Устанавливаем размер блока с текстом для текстового блока*/
+    /*margin-top: 10px; *//*Верхний отступ для текстового блока*/
+    /*margin-left: 10px;*/
+/*}*/
+/*.featured-text p {*/
+    /*margin-left: 50px;*/
+    /*font-size: 0.7em; *//*устанавливаем размер шрифта*/
+    /*line-height: 24px; *//*устанавливаем размер строки*/
+    /*text-align: justify; *//*выравнивание текста по ширине*/
+    /*padding-top: 10px; *//*добавляем верхний отступ для текста*/
+    /*padding-left: 10px;*/
+
+/*}*/
+/*#featured-image01 {*/
+    /*float: left; *//**//*устанавливаем положение изображения вправо*/
+    /*width: 200px; *//**//*устанавливаем фиксированную ширину изображения*/
+    /*background-image: url(images/World_money_166x155.png); наше изображение #1*/
+    /*background-repeat: no-repeat; *//**//*отменяем повторение изображения*/
+    /*background-position: right; *//**//*установка положения фонового рисунка вправо*/
+    /*height: 200px; *//**//*устанавливаем высоту изображения*/
+/*}*/
+/*#featured-image01 {*/
+    /*float: none; *//*устанавливаем положение изображения вправо*/
+    /*padding-top: 350px;*/
+    /*margin-left: 55px;*/
+    /*width: 300px; *//*Устанавливаем размер блока с текстом для текстового блока*/
+    /*margin-right: 10px;*/
+    /*background-image: url(images/World_money_166x155.png); *//*наше изображение #1*/
+    /*background-repeat: no-repeat;*/
+    /*height: 300px; *//*устанавливаем высоту изображения*/
+/*}*/
+
+/*#featured-image {*/
+    /*float: right; *//*устанавливаем положение изображения вправо*/
+    /*width: 214px; *//*устанавливаем ширину изображения внутри первого текстового блока */
+    /*background-image: url(images/World_money_166x155.png); *//*устанавливаем изображение в качестве фона*/
+    /*background-repeat: no-repeat; *//*отменяем повтор изображения*/
+    /*background-position: right; *//*устанавливает положение фонового изображения*/
+    /*height: 214px; *//*устанавливаем высоту изображения*/
+/*}*/
+/*.featured-btn {*/
+    /*height: 34px; *//*высота кнопки*/
+    /*width: 34px; *//*ширина кнопки*/
+    /*cursor: pointer; *//*устанавливаем курсор в виде указателя*/
+/*}*/
+/*.featured-buttons {*/
+    /*height: 144px; *//*устанавливаем фиксированную высоту*/
+    /*width: 34px; *//*устанавливаем фиксированную ширину*/
+    /*margin-left: 5px; *//*левый отступ*/
+    /*padding-top: 70px; *//*отступ сверху*/
+/*}*/
+/* ----------ОСНОВНЫЕ СТИЛИ---------- */
+/** {*/
+    /*margin: 0px; *//**//*Устанавливаем margin 0 для всего сайта*/
+    /*padding: 0px; *//**//*Устанавливаем padding 0 для всего сайта*/
+/*}*/
+/*body {*/
+    /*font-family: Verdana, Arial, Helvetica, sans-serif; *//**//*шрифты веб-сайта*/
+    /*background-color: #000000; *//**//*цвет фона веб-сайта*/
+    /*color: #999a9a; *//**//*цвет текста по умолчанию*/
+    /*background-image: url(images/bg.png); *//**//*фоновое изображение*/
+    /*background-repeat: repeat-y; *//**//*повтор (копирование) фонового изображения по оси Y*/
+    /*background-position: center; *//**//*центрируем фон*/
+/*}*/
+/*a:link {*/
+    /*color: #0096FF; *//*цвет ссылок*/
+/*}*/
+/*a:visited {*/
+    /*color: #FFFFFF; *//*цвет посещенной ссылки*/
+/*}*/
+/*a:hover {*/
+    /*color: #FFFFFF; *//*цвет ссылки, на которую наведен курсор*/
+/*}*/
+/*a:active {*/
+    /*color: #0096FF; *//*цвет активных ссылок*/
+/*}*/
+/*p {*/
+    /*font-size: 0.7em; *//*Устанавливаем размер текста*/
+    /*line-height: 18px; *//*Устанавливаем высоту строки по умолчанию*/
+    /*text-align: justify; *//*выравниваем текст по ширине параграфа*/
+/*}*/
+/*h1 {*/
+    /*color: #727372; *//*цвет заголовков с тегом H1*/
+    /*text-transform: uppercase; *//*Все заголовки внутри тегаl H1 будут отображаться в верхнем регистре*/
+    /*font-size: 1.2em; *//*размер шрифта заголовка с тегом H1*/
+    /*font-weight: normal; *//*установка насыщенности шрифта заголовка с тегом H1 на нормальную*/
+/*}*/
+/*h2 {*/
+    /*color: #FFFFFF; *//*цвет заголовков с тегом H2*/
+    /*text-transform: uppercase; *//*Все заголовки внутри тегаl H2 будут отображаться в верхнем регистре*/
+    /*font-size: 1em; *//*размер шрифта заголовка с тегом H2*/
+    /*font-weight: normal; *//*установка насыщенности шрифта заголовка с тегом H2 на нормальную*/
+/*}*/
+/*h3 {*/
+    /*color: #727372; *//*цвет заголовков с тегом H3*/
+    /*text-transform: uppercase; *//*Все заголовки внутри тегаl H3 будут отображаться в верхнем регистре*/
+    /*font-size: 0.9em; *//*размер шрифта заголовка с тегом H3*/
+    /*font-weight: normal; *//*установка насыщенности шрифта заголовка с тегом H3 на нормальную*/
+/*}*/
+/*h4 {*/
+    /*color: #727372; *//*цвет заголовков с тегом H4*/
+    /*text-transform: uppercase; *//*Все заголовки внутри тегаl H4 будут отображаться в верхнем регистре*/
+    /*font-size: 0.8em; *//*размер шрифта заголовка с тегом H4*/
+    /*font-weight: normal; *//*установка насыщенности шрифта заголовка с тегом H4 на нормальную*/
+/*}*/
+/*img {*/
+    /*border:none; *//*Удаляем рамки вокруг изображений*/
+/*}*/
+/*.float-left {*/
+    /*float:left; *//*класс параметра float left*/
+/*}*/
+/*.float-right {*/
+    /*float:right; *//*класс параметра float right*/
+/*}*/
+/* ----------Стили контейнера---------- */
+/*#container {*/
+    /*width: 900px; *//*ширина контейнера*/
+    /*margin-top: 0px; *//*Устанавливаем верхний отступ на 0*/
+    /*margin-right: auto; *//*Устанавливаем правый отступ в значение авто, т.е центрируем сайт*/
+    /*margin-left: auto; *//*Устанавливаем левый отступ в значение авто, т.е центрируем сайт*/
+/*}*/
+/* ----------Стили заголовка---------- */
+/*#header {*/
+    /*background-image: url(images/hd_bg.png); *//*Установка фонового изображения заголовка*/
+    /*background-repeat: no-repeat; *//*Отмена повтора фонового изображения*/
+    /*float: left; *//*Устанавливаем положение слоя заголовка влево*/
+    /*width: 900px; *//*задаем ширину заголовка в 900 пикселей*/
+/*}*/
+/*#top-elements {*/
+    /*float: left; *//*Устанавливаем положение слоя элементов заголовка влево*/
+    /*width: 900px; *//*задаем ширину слоя элементов заголовка в 900 пикселей*/
+    /*padding-top: 20px; *//*Задаем отступ элементов заголовка от верха сайта в 20 пикселей*/
+/*}*/
+/* ----------Стили логотипа---------- */
+/*#logo {*/
+    /*float: left; *//*Устанавливаем положение слоя с логотипом влево*/
+    /*padding-left: 50px;*/
+    /*height: 50px; *//*Устанавливаем высоту слоя логотипа в 37 пикселей, которая равна высота изображения с логотипом*/
+    /*width: 172px; *//*Устанавливаем ширину слоя логотипа в 270 пикселей, которая равна ширине изображения с логотипом*/
+/*}*/
+/* ----------Стили навигационной панели---------- */
+/*#nav-bar {*/
+    /*background-image: url(images/bg-nav.png); *//*Установка фонового изображения панели*/
+    /*float: none; *//*Устанавливаем положение навигационной панели вправо*/
+    /*margin-left: 45px;*/
+    /*margin-top: 70px;*/
+    /*height: 29px; *//*Устанавливаем высоту панели в 29 пикселей*/
+    /*width: 810px;*/
+    /*padding-top: 8px; *//*Устанавливаем отступ панели навигации от верха слоя заголовка в пикселях*/
+    /*margin-bottom: 40px; *//*Устанавливаем отступ от нижнего края заголовка в пикселях*/
+/*}*/
+/*.navlinks ul {*/
+    /*margin: 0px; *//*Устанавливаем margin 0 для нашего списка ссылок*/
+    /*padding: 0px; *//*Устанавливаем padding 0 для нашего списка ссылок */
+/*}*/
+/*.navlinks li {*/
+    /*display: inline; *//*устанавливаем строчный элемент*/
+    /*list-style-type: none; *//*Удаляем маркировку списка из навигационной панели*/
+    /*padding-left: 20px; *//*Устанавливаем положение пунктов навигации влево*/
+/*}*/
+/*.navlinks li a {*/
+    /*text-decoration: none; *//*Удаляем подчеркивание ссылок панели навигации*/
+    /*font-size: 14px; *//*размер шрифта панели навигации*/
+    /*color: #0090d9; *//*Цвет ссылок панели навигации*/
+    /*padding-bottom: 2px; *//*устанавливаем отступ от нижнего края слоя для ссылок панели навигации*/
+/*}*/
+/*.navlinks li a:hover {*/
+    /*border-bottom-width: medium; *//*Устанавливаем подчеркивание средней толщины для ссылок панели навигации*/
+    /*border-bottom-style: solid; *//*делаем подчеркивание ссылок сплошным*/
+    /*border-bottom-color: #0096ff; *//*Устанавливаем цвет подчеркивания*/
+/*}*/
+/*.navlinks li.current a{*/
+    /*border-bottom-width: medium; *//*Устанавливаем подчеркивание средней толщины для ссылок панели навигации*/
+    /*border-bottom-style: solid; *//*делаем подчеркивание ссылок сплошным*/
+    /*border-bottom-color: #0096ff; *//*Устанавливаем цвет подчеркивания*/
+/*}*/
+
+ /* Использовал*/
+ /*#first_1{*/
+     /*float: left; *//*Устанавливаем положение текстового блока*/
+     /*height: 200px;*/
+     /*width: 34px; *//*Устанавливаем размер текстового блока в 900 пикселей*/
+     /*padding-top: 10px;*/
+     /*padding-left: 50px;*/
+     /*margin-top: 0px;*/
+     /*background: #7ab5d3 ;*/
+     /*margin-bottom: 20px; *//**//*нижний отступ в 20 пикселей от края слоя для текстового блока*/
+ /*}*/
+ /*#first_btn {*/
+ /*float: left;*/
+ /*height: 34px; *//**//*высота кнопки*/
+ /*padding-top: 50px;*/
+ /*width: 34px; *//*ширина кнопки*/
+ /*cursor: pointer; *//*устанавливаем курсор в виде указателя*/
+ /*background: #ff0000;*/
+ /*}*/
+ /*#first_btn2 {*/
+ /*float: left;*/
+ /*height: 34px; *//**//*высота кнопки*/
+ /*width: 34px; *//*ширина кнопки*/
+ /*cursor: pointer; *//*устанавливаем курсор в виде указателя*/
+ /*background: #ff0000;*/
+ /*}*/
+ /*#first_2{*/
+ /*float: left; *//*Устанавливаем положение текстового блока*/
+ /*height: 200px;*/
+ /*width: 206px; *//*Устанавливаем размер текстового блока в 900 пикселей*/
+ /*padding-top: 0px;*/
+ /*margin-top: 0px;*/
+ /*background: #88be14 ;*/
+ /*margin-bottom: 20px; *//**//*нижний отступ в 20 пикселей от края слоя для текстового блока*/
+ /*}*/
+ /*#first_image01 {*/
+ /*float: left; *//*устанавливаем положение изображения вправо*/
+ /*padding-top: 10px;*/
+ /*background: #F2EFE6;*/
+ /*width: 155px; *//*Устанавливаем размер блока с текстом для текстового блока*/
+ /*background-image: url(images/World_money_166x155.png); *//*наше изображение #1*/
+ /*background-repeat: no-repeat;*/
+ /*height: 155px; *//*устанавливаем высоту изображения*/
+ /*padding-left: 50px;*/
+ /*}*/

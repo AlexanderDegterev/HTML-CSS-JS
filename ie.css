@@ -1,0 +1,6 @@
+.navlinks li a:hover {
+position: relative;
+}
+.navlinks li.current a{
+position: relative;
+}
