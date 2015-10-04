@@ -6,6 +6,13 @@
     <title>Template Tempees.com</title>
     <link href="css/styles1.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:400,300" type="text/css">
+    <style>
+    @font-face {
+    font-family: Roboto-Regular;
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: Roboto-Bold;
+    src: url(fonts/Roboto-Bold.ttf);
+    </style>
 
     <!--[if lt IE 9]>
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -14,12 +21,19 @@
 <body>
 <div id="wrapper">
     <header>
-        <a href="/"><img src="images/Template1_Logo.jpg" alt="Logo Company"></a>
+        <div id="header">
+            <a href="/"><img src="images/Template1_Logo.jpg" alt="Logo Company"></a>
+            <div id="question">
+                <a>Do you have questions? <span>Call us!</span></a>
+                <p>+36 901 123 456</p>
+            </div>
+        </div>
     </header>
 
     <nav>
+        <div class="lineNav">
         <ul class="top-menu">
-            <li class="active">HOME Page</li>
+            <li class="active">HOME PAGE</li>
             <li><a href="/home/">OUR SERVICE</a> </li>
             <li><a href="/home/">OUR SOLUTIONS</a> </li>
             <li><a href="/home/">PRICE OFFER</a> </li>
@@ -27,30 +41,36 @@
             <li><a href="/home/">CONTACT</a> </li>
 
         </ul>
+        </div>
     </nav>
     <div id="heading"></div>
     <div id="picWrapper">
         <a href="/"><img src="images/Template1_Pic(950_346).jpg" alt="ImageWrapper"></a>
-    </div>
+    </div><!-- #picWrapper -->
     <aside>
         <h2>Duis, luptatum delenit ullam corper, quis, consequat eros et ad feugiat, velit...</h2>
         <p>Duis, luptatum delenit ullamcorper quis, consequat eros et ad feugiat, velit aliquip</p>
+        <a href="#" class="asideButton">Photogallery</a>
     </aside>
     <section>
         <h2>We are nice small Company</h2>
         <p>Autem magna in suscipit accumsan vel hendrerit nulla dolore, exerci iusto eum amet accumsan odio nostrud duis nulla velit aliquip dignissim nisl esse, volutpat, magna blandit. Luptatum hendrerit, sed veniam praesent suscipit nulla vero nonummy duis exerci.</p>
         <p>Dignissim at qui hendrerit qui autem feugiat vel in dolor dolor augue dolor qui nisl nostrud ad zzril ut facilisis et vel blandit illum at. Nostrud feugiat quis consequat ut in facilisis ex minim nisl illum duis in wisi, adipiscing euismod exerci diam consequat molestie nisl te luptatum dignissim eu et.</p>
+        <a href="#" class="sectionButton">more about as</a>
     </section>
 
 </div>
 <footer>
+    <div class="line">
     <div id="footer">
         <div id="CopyRight">
             <p>Copyright 2014 | Tempees.com | All rights reserved</p>
         </div>
-        <div id="Designed"></div>
-        <p>Designed with curved hands in Tempees.com</p>
-    </div>
+        <div id="Designed">
+            <p>Designed with curved hands in Tempees.com</p>
+        </div>
+        </div>
+    </div><!-- #footer -->
 </footer>
 
 </body>
