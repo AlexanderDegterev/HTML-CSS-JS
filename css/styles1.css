@@ -3,9 +3,15 @@
     margin: 0;
     padding: 0;
 }
+@font-face {
+    font-family: roboto-regular;
+    src: url(fonts/Roboto-Regular.ttf);
+    font-family: roboto-bold;
+    src: url(fonts/Roboto-Bold.ttf);
+}
   body {
       color: Black;
-      font: 12px Roboto-Regular, sans-serif;
+      font: 12px roboto-regular, sans-serif;
       background-color: #ffffff;
       border-top: 9px solid #3399cc;
       margin: 0;
@@ -25,21 +31,19 @@
       padding: 0px 0px;
       margin: 0px 0px 0px 0px;
       max-height: 65px;
-      font: 18px 'Roboto-Bold', sans-serif;
+      font: 18px roboto-bold, sans-serif;
       color: #333333;
   }
   #question a {
-      font: 14px 'Roboto-Regular', sans-serif;
+      font: 14px roboto-regular, sans-serif;
       color: #999999;
   }
   #question a span{
-      font: 18px 'Roboto-Bold', sans-serif;
+      font: 18px roboto-bold, sans-serif;
       color: #333333;
   }
   nav {
       height: 65px;
-  }
-  .lineNav {
       border-top: 1px dotted #cccccc ;
   }
   nav a {
@@ -53,7 +57,7 @@
 
   nav li {
       list-style-position: inside;
-      font: 15px 'Roboto-Regular', sans-serif;
+      font: 15px roboto-regular, sans-serif;
       padding: 10px;
       /*border-left: 1px dotted #cccccc ;*/
   }
@@ -78,18 +82,18 @@
   aside {
       float: left;
       width: 280px;
-      font: 16px 'Roboto-Regular', sans-serif;
+      font: 16px roboto-regular, sans-serif;
       color: #3399cc;
       padding: 33px 37px;
       /*background-color: red;*/
   }
   aside h2 {
-      font: 22px 'Roboto-Regular', sans-serif;
+      font: 22px roboto-regular, sans-serif;
       color: #3399cc;
   }
   aside p {
       padding: 33px 0px;
-      font: 16px 'Roboto-Regular', sans-serif;
+      font: 16px roboto-regular, sans-serif;
       color: #999999;
   }
   section {
@@ -104,26 +108,27 @@
   section p {
       margin-top: 6px;
       padding: 10px 0px;
-      font: 16px 'Roboto-Regular', sans-serif;
+      font: 16px Roboto-Regular, sans-serif;
       color: #999999;
   }
   .black p {
       margin-top: 6px;
       padding: 10px 0px;
-      font: 16px 'Roboto-Regular', sans-serif;
+      font: 16px Roboto-Regular, sans-serif;
       color: #000000;
   }
   section h2 {
-      font: 28px 'Roboto-Regular', sans-serif;
+      font: 28px Roboto-Regular, sans-serif;
       color: #333333;
   }
-  .line {
-      border-top: 1px solid #cccccc ;/* Линия слева от текста */
+  /*.line {
+      border-top: 1px solid #cccccc ;
 
-  }
+  }*/
  footer {
      background-color: #f1f1f1;
      color: #999999;
+     border-top: 1px solid #cccccc ;
      font-size: 12px;
      height: 100px;
  }
@@ -135,13 +140,13 @@
  }
  #CopyRight {
      float: left;
-     font: 12px 'Roboto-Regular', sans-serif;
+     font: 12px Roboto-Regular, sans-serif;
      /*padding: 20px;*/
      /*width: 600px;*/
  }
   #Designed {
      float: right;
-     font: 12px 'Roboto-Regular', sans-serif;
+     font: 12px Roboto-Regular, sans-serif;
  }
 
   /*button*/
@@ -154,8 +159,7 @@
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-family:Roboto-Bold;
-    font-size:14px;
+    font: bold 14px roboto-regular, sans-serif;
     padding:13px 23px;
     text-decoration:none;
     text-shadow:0px -1px 0px #b23e35;
@@ -177,8 +181,7 @@
     display:inline-block;
     cursor:pointer;
     color:#ffffff;
-    font-family:Roboto-Bold;
-    font-size:16px;
+    font: bold 16px roboto-regular, sans-serif;
     padding:13px 23px;
     text-decoration:none;
     text-shadow:0px -1px 0px #b23e35;
