@@ -59,22 +59,25 @@
   }
   nav ul {
       margin: 0;
-      padding: 0;
+      padding: 15px 0px 0px 0px;
+      /*list-style-type: none; *//*убирает маркер*/
   }
-
   nav li {
       list-style-position: inside;
       font: 15px roboto-regular, sans-serif;
       padding: 10px;
       /*border-left: 1px dotted #cccccc ;*/
   }
-
   .top-menu li{
       display: inline-block;
-      padding: 20px 25px;
+      padding: 5px 25px;
       margin: 0;
+      /*border-left: 1px dotted #cccccc ;*/
+      background: url(../images/Vertical_line.jpg) no-repeat left 50%;
+      /*list-style-image: url(../images/Vertical_line.jpg);*/
   }
   .top-menu li.active{
+      border: none;
       /*background-color: #29c5e6;*/
       /*color: #fff;*/
   }
