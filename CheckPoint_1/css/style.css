@@ -3,7 +3,7 @@
 	padding: 0;
 }
 @font-face {
-    font-family: Roboto-Black;
+    font-family: roboto-black;
     src: url(fonts/Roboto-Black.ttf);
     font-family: roboto-light;
     src: url(fonts/Roboto-Light.ttf);
@@ -50,15 +50,16 @@ h1, h2, h3, h4, h5, h6{
 	
 /* Layout
 ----------------------------------*/	
-.wrapper{
+#wrapper{
     /*min-width: 572px;*/
-    max-width: 920px;
+    max-width: 1280px;
     margin: auto;
+    /*background: green url("../images/layout/box-but12ton.png") no-repeat left bottom;*/
 }
 
 /* Header */
 .page-header{
-    max-width: 1920px;
+    max-width: 1000px;
     height: 67px;
 
 }
@@ -74,13 +75,45 @@ h1, h2, h3, h4, h5, h6{
     /*list-style-image: url(../images/Vertical_line.jpg);*/
 }
 .page-body{
+    /*width: 10em;*/
+    max-width: 1137px;
+    background: #effce7 url("../images/layout/button(1140-8).png") no-repeat left bottom;
     background-color: #ffffff;
     /*color: #ffffff;*/
     min-width: 572px;
     min-height: 600px;
     margin: auto;
 }
-.box {
+
+.page-body h1 {
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+    font: 40px roboto-black, sans-serif;
+
+}
+
+.page-body h3 {
+    text-align: center;
+    padding: 15px;
+    font: 24px roboto-light, sans-serif;
+}
+
+.box-outer {
+    /*width: 20em;*/
+    background: url("../images/layout/button(1140-8).png") no-repeat right bottom;
+    padding-bottom: 5%;
+}
+
+.box-inner {
+    background: url("../images/layout/top-left(1137-7).png") no-repeat left top;
+}
+
+.box-inner2 {
+    background: url("../images/layout/top-right(7-7).png") no-repeat right top;
+}
+
+.service {
     display:inline-block;
     text-align: center;
     width: 192px;
@@ -88,16 +121,16 @@ h1, h2, h3, h4, h5, h6{
     background: /*#ebf2f7*/ url("../images/layout/box-button.png") no-repeat left bottom;
     margin-bottom: 0;
 }
-.box h3 {
+.service h3 {
     height: 67px;
     padding: 15px 15px 10px 10px;
     /*padding-right: 15px;*/
-    overflow: hidden;/* Обрезаем все, что не помещается в область */
-    /*text-overflow: ellipsis; *//* Добавляем многоточие */
+    overflow: hidden;/* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ, пїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
+    /*text-overflow: ellipsis; *//* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ */
     /*margin: 10px 10px;*/
     background: #ebf2f7 url("../images/layout/box-top.png") no-repeat left top;
 }
-.box img {
+.service img {
     max-width: 100%;
     display: block;
     margin:25px auto 25px;
@@ -116,8 +149,8 @@ h1, h2, h3, h4, h5, h6{
     /*width: 192px;*/
     /*padding: 10px 10px;*/
     /*color: white;*/
-    /*background: url("../images/layout/Clock.png") 100% 100% no-repeat; *//* Добавляем фон */
-    /*background-size: contain; *//* Масштабируем фон */
+    /*background: url("../images/layout/Clock.png") 100% 100% no-repeat; *//* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ */
+    /*background-size: contain; *//* пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ */
 }
 /*.box p {*/
     /*margin: 0 0 0 0;*/
@@ -168,15 +201,42 @@ h1, h2, h3, h4, h5, h6{
     width: 50px;
 }
 
+.our_services {
+    max-width: 1137px;
+    max-height: 280px;
+    /*background: #effce7 url("../images/layout/button(1140-8).png") no-repeat left bottom;*/
+    background-color: #ffffff;
+    /*color: #ffffff;*/
+    min-width: 572px;
+    /*min-height: 600px;*/
+    margin: auto;
+}
+
+.our_services h1 {
+    text-align: center;
+    padding: 15px;
+    padding-top: 30px;
+    font: 40px roboto-black, sans-serif;
+
+}
+
+.our_services p {
+    text-align: center;
+    padding: 15px 25px;
+    font: 19px roboto-light, sans-serif;
+    line-height: 155%;
+}
+
+
 /* Footer */
 .page-footer{
     /*max-width: 950px;*/
     height: 100px;
     margin: auto;
     /*padding: 30px 0;*/
-    background-color: #f1f1f1;
-    color: #999999;
-    border-top: 1px solid #cccccc ;
+    /*background-color: #f1f1f1;*/
+    /*color: #999999;*/
+    /*border-top: 1px solid #cccccc ;*/
     font-size: 12px;
 }
 
