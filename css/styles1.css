@@ -60,7 +60,7 @@
   nav ul {
       margin: 0;
       padding: 15px 0px 0px 0px;
-      /*list-style-type: none; *//*убирает маркер*/
+      /*list-style-type: none; *//*пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ*/
   }
   nav li {
       list-style-position: inside;
@@ -78,8 +78,8 @@
   }
   .top-menu li.active{
       border: none;
-      /*background-color: #29c5e6;*/
-      /*color: #fff;*/
+      background-color: #29c5e6;
+      color: #fff;
   }
   .top-menu a {
       color: #333366;
