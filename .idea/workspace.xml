@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74d62ed-afb8-4aac-b307-30746b43606c" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_1/images/layout/twitter.png" afterPath="$PROJECT_DIR$/CheckPoint_1/images/layout/twitter.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_1/index_1.html" afterPath="$PROJECT_DIR$/CheckPoint_1/index_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_1/css/style.css" afterPath="$PROJECT_DIR$/CheckPoint_1/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/styles1.css" afterPath="$PROJECT_DIR$/css/styles1.css" />
     </list>
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,19 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_1.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index_1.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CheckPoint_1/index_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="56" selection-start="3163" selection-end="3163" vertical-scroll-proportion="-34.03846" vertical-offset="526" max-vertical-offset="3077">
+            <state line="15" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.35664335" vertical-offset="0" max-vertical-offset="4063">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="21" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4273743" vertical-offset="782" max-vertical-offset="6630">
+            <state line="76" column="1" selection-start="1159" selection-end="1159" vertical-scroll-proportion="80.92" vertical-offset="3315" max-vertical-offset="6902">
               <folding />
             </state>
           </provider>
@@ -57,7 +57,7 @@
       <file leaf-file-name="styles1.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/styles1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="22" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3893">
+            <state line="65" column="22" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="3893">
               <folding />
             </state>
           </provider>
@@ -81,8 +81,8 @@
         <option value="$PROJECT_DIR$/HTML/index1.html" />
         <option value="C:/!_HTML/Lesson 3/res/template/index.html" />
         <option value="$PROJECT_DIR$/css/styles1.css" />
-        <option value="$PROJECT_DIR$/CheckPoint_1/index_1.html" />
         <option value="$PROJECT_DIR$/CheckPoint_1/css/style.css" />
+        <option value="$PROJECT_DIR$/CheckPoint_1/index_1.html" />
       </list>
     </option>
   </component>
@@ -119,6 +119,66 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="HTML" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
@@ -215,66 +275,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="htdocs" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="HTML" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -360,11 +360,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -386,6 +386,34 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/index_1.html">
       <provider selected="true" editor-type-id="text-editor">
+        <state line="83" column="56" selection-start="3163" selection-end="3163" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="21" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="6630">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="78" selection-start="490" selection-end="490" vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="1445">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/styles1.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="22" selection-start="1309" selection-end="1309" vertical-scroll-proportion="0.0" vertical-offset="1105" max-vertical-offset="3893">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CheckPoint_1/index_1.html">
+      <provider selected="true" editor-type-id="text-editor">
         <state line="103" column="12" selection-start="4424" selection-end="4424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2057">
           <folding />
         </state>
@@ -393,9 +421,7 @@
     </entry>
     <entry file="file://C:/!_HTML/Lesson 3/res/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="547" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="16" column="36" selection-start="547" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
@@ -428,9 +454,7 @@
     </entry>
     <entry file="file://C:/!_HTML/Lesson 3/res/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="36" selection-start="547" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425">
-          <folding />
-        </state>
+        <state line="16" column="36" selection-start="547" selection-end="609" vertical-scroll-proportion="0.0" vertical-offset="272" max-vertical-offset="425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
@@ -480,9 +504,7 @@
     </entry>
     <entry file="file://C:/!_HTML/Lesson 3/res/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="33" selection-start="547" selection-end="609" vertical-scroll-proportion="0.35664335" vertical-offset="0" max-vertical-offset="715">
-          <folding />
-        </state>
+        <state line="15" column="33" selection-start="547" selection-end="609" vertical-scroll-proportion="0.35664335" vertical-offset="0" max-vertical-offset="715" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/styles1.css">
@@ -499,16 +521,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CheckPoint_1/index_1.html">
+    <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="56" selection-start="3163" selection-end="3163" vertical-scroll-proportion="-34.03846" vertical-offset="526" max-vertical-offset="3077">
+        <state line="76" column="1" selection-start="1159" selection-end="1159" vertical-scroll-proportion="80.92" vertical-offset="3315" max-vertical-offset="6902">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
+    <entry file="file://$PROJECT_DIR$/CheckPoint_1/index_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="21" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.4273743" vertical-offset="782" max-vertical-offset="6630">
+        <state line="15" column="0" selection-start="597" selection-end="597" vertical-scroll-proportion="0.35664335" vertical-offset="0" max-vertical-offset="4063">
           <folding />
         </state>
       </provider>

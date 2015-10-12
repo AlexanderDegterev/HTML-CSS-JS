@@ -11,8 +11,8 @@
 /*src: url(../fonts/Roboto-Light.ttf);*/
 /*}*/
 body {
-    background: #003366 url("../images/layout/gradien.jpg") repeat-y;
-    font: normal 19px roboto-light, sans-serif;
+    background: #184872 url("../images/layout/gradien.jpg") repeat-x;
+    font: normal 19px roboto, sans-serif;
 }
 
 img {
@@ -61,30 +61,19 @@ h1, h2, h3, h4, h5, h6 {
 /* Layout
 ----------------------------------*/
 #wrapper {
-    max-width: 1140px;
-    /*width: 100%;*/
+    width: 1140px;
     margin: auto;
-    /*background: green url("../images/layout/box-but12ton.png") no-repeat left bottom;*/
 }
 
 /* Header */
 .page-header {
     padding: 20px 0;
-    /*display: table;*/
-    /*position: relative;*/
-    /*float: left;*/
-    /*width: 86%;*/
-    /*min-width: 1000px;*/
     height: 110px;
-    /*margin: auto;*/
-    /*margin-left: 240px;*/
-    /*background-color: #ff0000;*/
 }
 
 .page-header a {
     float: left;
-    padding-top: 30px;
-    /*background-color: green;*/
+    padding: 30px 0px 0px 22px;
 }
 
 .page-header h2 {
@@ -97,29 +86,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-header p {
-    /*position: absolute;*/
-    /*float: left;*/
-    /*left: 78px;*/
-    /*top: 98px;*/
     margin-top: 85px;
-    max-width: 300px;: 300px;
+    max-width: 300px;
     font: 16px roboto, sans-serif;
     color: #ffffff;
-    /*background-color: yellow;*/
 }
 
 .nav {
     position: relative;
     display: table;
     width: 700px;
-    /*overflow: auto;*/
-    /*position: relative;*/
-    /*min-width: 1137px;*/
     float: right;
     padding-top: 50px;
-    /*margin-top: 72px;*/
-    /*margin-left: 85px;*/
-    font: 16px roboto, sans-serif;
+    font: 15px roboto, sans-serif;
+    font-weight: 400;
 }
 
 .nav li {
@@ -147,10 +127,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-body {
-    max-width: 1140px;
+    width: 1140px;
     background: #effce7 url("../images/layout/button(1140-8).png") no-repeat left bottom;
     background-color: #ffffff;
-    min-width: 572px;
     color: #184771;
     /*min-height: 600px;*/
     margin: auto;
@@ -161,14 +140,17 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 15px;
     padding-top: 30px;
-    font: 40px roboto-black, sans-serif;
+    font: 40px roboto, sans-serif;
+    font-weight: 700;
 
 }
 
 .page-body h3 {
     text-align: center;
     padding: 15px;
-    font: 24px roboto-light, sans-serif;
+    font: 24px roboto, sans-serif;
+    font-weight: 300;
+    line-height: 140%;
 }
 
 .box-inner {
@@ -199,18 +181,35 @@ h1, h2, h3, h4, h5, h6 {
     /*background: *//*#ebf2f7*//* url("../images/layout/box-button.png") no-repeat left bottom;*/
     margin: 9.6px;
 }
-
-.service h3 {
-    height: 67px;
-    padding: 15px 15px 10px 10px;
-    /*padding-right: 15px;*/
-    /*overflow: hidden; */
-    /*text-overflow: ellipsis; */
-    /*margin: 10px 10px;*/
+.parent {
+    display: table;
+    height: 92px;
+    width: 192px;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
 }
 
+.child {
+    display: table-cell;
+    vertical-align:middle;
+}
+.helper {
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    width:0px;
+}
+
+.service h3 {
+    font: 24px roboto, sans-serif;
+    font-weight: 700;
+    /*height: 67px;*/
+    padding: 15px 15px 10px 10px;
+    /*background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;*/
+}
+
 .boximages {
+    line-height: 110px;
+    height: 110px;
     background: #ebf2f7 url("../images/layout/service_pic(192_110).png") no-repeat left top;
 }
 
@@ -224,13 +223,51 @@ h1, h2, h3, h4, h5, h6 {
 /*}*/
 /**/
 .service img {
-    padding: 12px 70px 12px;
+    vertical-align: middle;
+    /*padding: 12px 70px 12px;*/
 }
 
-/*.boximages {*/
-    /*height: 87px;*/
-    /*width: 192px;*/
-/*}*/
+.button {
+    /*display: inline-block;*/
+    float: left;  /*чтобы ширина кнопки зависела от контента. по идее должен подойти и display: inline-block*/
+    margin: 16px 32px;
+}
+.button div {
+    position: relative;
+    color: #fff;
+    height: 42px;
+    width: 120px;
+    background: url(../images/layout/Button.png) no-repeat; /* левые углы фона с прозрачными участками */
+    font: 17px roboto, sans-serif;
+}
+* html .button div { /* хак для ие6 чтобы с шириной кнопки проблем не было */
+    width: 10px;
+}
+.button span { /* правое скругление кнопки выносим за пределы кнопки */
+    background: url(../images/layout/Button-r.png);
+    height: 42px;
+    width: 16px;
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    right: -6px;
+    overflow: hidden;
+}
+.button input {
+    height: 100%;
+    cursor: pointer;
+    font: 17px roboto, sans-serif;
+    color: #ffffff;
+    margin: 0 -6px 0 0; /* чтобы кликабильным была правая часть кнопки, вынесенная за ее пределы */
+    padding: 2px 6px 5px 6px;
+    overflow: visible; /* убираем необнуляемые внутренние отступы для ie6-7 */
+    border: none;
+    position: relative;
+    z-index: 2;
+    background: none;
+}
+
 
 .boxforbutton {
     /*background-color: #ff0000;*/
@@ -248,90 +285,57 @@ h1, h2, h3, h4, h5, h6 {
     border-bottom-width: 1px; /* Толщина линии */
 }
 
-.blue-button {
-    float:left;
-    /*width: 60px;*/
-    /*height: 10px;*/
-    margin: 22px 46px 22px 46px;
-    padding: 8px 24px;
-    background-color: #3399CC;
-    -moz-border-radius: 5px;
-    -webkit-border-radius: 5px;
-    border-radius: 5px;
-    border: 1px solid #ffffff;
-    text-align: center;
-    /*vertical-align: baseline;*/
-    /*display: inline;*/
-    cursor: pointer;
-    color: #ffffff;
-    font: bold 14px roboto-regular, sans-serif;
-    text-decoration: none;
-    text-shadow: 0px -1px 0px #b23e35;
-}
-
-.blue-button:hover {
-    background-color: #4db2cc;
-}
-
-.blue-button:active {
-    position: relative;
-    top: 1px;
-}
-
 .box-button {
     width: 50px;
 }
 
 /* OUR SERVICES */
 .our_services {
-    /*position: relative;*/
-    max-width: 1140px;
-    max-height: 280px;
+    width: 1140px;
+    height: 283px;
     clear: both;
-    /*background: #effce7 url("../images/layout/button_left(1135-7).png") no-repeat left bottom;*/
-    /*background-color: #ffffff;*/
-    /*color: #ffffff;*/
     min-width: 572px;
-    /*min-height: 600px;*/
     margin: auto;
 }
 
 .our_services_outer {
+    height: 283px;
     background: #F3F7F9 url("../images/layout/button_left(1135-7).png") no-repeat left bottom;
 }
 
 .our_services_inner {
+    height: 283px;
     background: url("../images/layout/button_right(7-7).png") no-repeat right bottom;
-    /*padding-bottom: 5%;*/
 }
 
 .our_services h1 {
     text-align: center;
-    padding: 15px;
-    padding-top: 30px;
-    font: bold 40px roboto, sans-serif;
+    padding: 26px 15px 0px 15px;
+    font: 40px roboto, sans-serif;
+    font-weight: 700;
     color: #17466F;
 
 }
 
 .our_services p {
     text-align: center;
-    padding: 15px 25px;
-    font: 19px roboto-light, sans-serif;
+    padding: 12px 25px;
+    font: 19px roboto, sans-serif;
+    font-weight: 300;
     color: #17466F;
-    line-height: 155%;
+    line-height: 190%;
 }
 
 /* Footer */
 .page-footer {
-    max-width: 1137px;
+    width: 1140px;
     margin: auto;
     padding: 10px 0;
     height: 148px;
 }
 .page-footer p {
     margin-top: 5px;
-    font: 13px roboto-regular, sans-serif;
+    font: 13px roboto, sans-serif;
     color: #91afc9;
 }
 
@@ -344,20 +348,18 @@ h1, h2, h3, h4, h5, h6 {
 #twitter {
     float: left;
     width: 165px;
-    /*background-image: url(../images/layout/twitter.png);*/
-    /*background-repeat:no-repeat*/
 }
 
 #twitter a {
-    min-height: 20px;
-    background-image: url(../images/layout/twitter.png);
-    background-repeat:no-repeat;
-    color: #5EACDA;
-    padding: 0px 0px 0px 35px;
-    font: 13px roboto-regular, sans-serif;
+    float: left;
+    margin-top: -3px;
+    color: #5eacda;
+    font: 13px roboto, sans-serif;
+    text-decoration: none;
 }
 
 #twitter p {
+    float: left;
     padding-left: 35px;
     color: #5EACDA;
 }
@@ -366,35 +368,28 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 30px;
 }
 
-.nav2 {
-    /*position: relative;*/
-    /*display: table;*/
-    /*width: 50%;*/
-    /*overflow: auto;*/
-    /*position: relative;*/
-    /*min-width: 1137px;*/
+.navfooter {
     float: right;
 }
 
-.nav2 li {
+.navfooter li {
     display: inline-block;
     padding: 5px 5px;
-    font: 13px roboto-regular, sans-serif;
-    /*color: #91AFC9;*/
+    font: 13px roboto, sans-serif;
     background: url(../images/layout/Vertival_line.png) no-repeat left 50%;
 }
 
-.nav2 li:first-child {
+.navfooter li:first-child {
     background: none;
 }
 
-.nav2 a {
+.navfooter a {
     text-decoration: none;
     padding: 2px 1px;
     color: #91AFC9;
 }
 
-.nav2 a:hover {
+.navfooter a:hover {
     border-radius: 5px 5px 5px 5px;
     background-color: #568cbc;
 }
