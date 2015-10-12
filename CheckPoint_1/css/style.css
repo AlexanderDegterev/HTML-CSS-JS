@@ -1,5 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,400italic,700,700italic,500,300italic,500italic,900,900italic);
-
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,500,400italic,500italic,700,700italic,900,900italic);
 * {
     margin: 0;
     padding: 0;
@@ -34,7 +33,7 @@ a:active {
 }
 
 a:visited {
-    color: #c60101;
+    /*color: #c60101;*/
 }
 
 ul li {
@@ -62,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Layout
 ----------------------------------*/
 #wrapper {
-    max-width: 1024px;
+    max-width: 1140px;
     /*width: 100%;*/
     margin: auto;
     /*background: green url("../images/layout/box-but12ton.png") no-repeat left bottom;*/
@@ -148,10 +147,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-body {
-    max-width: 1137px;
+    max-width: 1140px;
     background: #effce7 url("../images/layout/button(1140-8).png") no-repeat left bottom;
     background-color: #ffffff;
     min-width: 572px;
+    color: #184771;
     /*min-height: 600px;*/
     margin: auto;
     padding-bottom: 6px;
@@ -197,15 +197,15 @@ h1, h2, h3, h4, h5, h6 {
     width: 192px;
     height: 282px;
     /*background: *//*#ebf2f7*//* url("../images/layout/box-button.png") no-repeat left bottom;*/
-    margin: 5px;
+    margin: 9.6px;
 }
 
 .service h3 {
     height: 67px;
     padding: 15px 15px 10px 10px;
     /*padding-right: 15px;*/
-    overflow: hidden; /* �������� ���, ��� �� ���������� � ������� */
-    /*text-overflow: ellipsis; *//* ��������� ���������� */
+    /*overflow: hidden; */
+    /*text-overflow: ellipsis; */
     /*margin: 10px 10px;*/
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
 }
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
 /* OUR SERVICES */
 .our_services {
     /*position: relative;*/
-    max-width: 1137px;
+    max-width: 1140px;
     max-height: 280px;
     clear: both;
     /*background: #effce7 url("../images/layout/button_left(1135-7).png") no-repeat left bottom;*/
@@ -297,7 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .our_services_outer {
-    background: #effce7 url("../images/layout/button_left(1135-7).png") no-repeat left bottom;
+    background: #F3F7F9 url("../images/layout/button_left(1135-7).png") no-repeat left bottom;
 }
 
 .our_services_inner {
@@ -309,7 +309,8 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 15px;
     padding-top: 30px;
-    font: 40px roboto-black, sans-serif;
+    font: bold 40px roboto, sans-serif;
+    color: #17466F;
 
 }
 
@@ -317,6 +318,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     padding: 15px 25px;
     font: 19px roboto-light, sans-serif;
+    color: #17466F;
     line-height: 155%;
 }
 
@@ -325,7 +327,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1137px;
     margin: auto;
     padding: 10px 0;
-    height: 30px;
+    height: 148px;
 }
 .page-footer p {
     margin-top: 5px;
@@ -342,8 +344,17 @@ h1, h2, h3, h4, h5, h6 {
 #twitter {
     float: left;
     width: 165px;
+    /*background-image: url(../images/layout/twitter.png);*/
+    /*background-repeat:no-repeat*/
+}
+
+#twitter a {
+    min-height: 20px;
     background-image: url(../images/layout/twitter.png);
-    background-repeat:no-repeat
+    background-repeat:no-repeat;
+    color: #5EACDA;
+    padding: 0px 0px 0px 35px;
+    font: 13px roboto-regular, sans-serif;
 }
 
 #twitter p {
