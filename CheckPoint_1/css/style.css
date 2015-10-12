@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Layout
 ----------------------------------*/
 #wrapper {
-    max-width: 1920px;
+    max-width: 1024px;
     /*width: 100%;*/
     margin: auto;
     /*background: green url("../images/layout/box-but12ton.png") no-repeat left bottom;*/
@@ -70,49 +70,56 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Header */
 .page-header {
-    display: table;
-    position: relative;
+    padding: 20px 0;
+    /*display: table;*/
+    /*position: relative;*/
     /*float: left;*/
-    width: 86%;
+    /*width: 86%;*/
     /*min-width: 1000px;*/
-    height: 150px;
+    height: 110px;
     /*margin: auto;*/
-    margin-left: 240px;
+    /*margin-left: 240px;*/
+    /*background-color: #ff0000;*/
 }
 
 .page-header a {
     float: left;
-    padding-top: 62px;
+    padding-top: 30px;
+    /*background-color: green;*/
 }
 
 .page-header h2 {
     float: left;
     padding: 0px;
-    padding-top: 67px;
+    padding-top: 50px;
     max-width: 300px;
     font: 28px roboto-ultra-bold, sans-serif;
     color: #ffffff;
 }
 
 .page-header p {
-    position: absolute;
-    float: left;
-    left: 78px;
-    top: 98px;
+    /*position: absolute;*/
+    /*float: left;*/
+    /*left: 78px;*/
+    /*top: 98px;*/
+    margin-top: 85px;
+    max-width: 300px;: 300px;
     font: 16px roboto, sans-serif;
     color: #ffffff;
+    /*background-color: yellow;*/
 }
 
 .nav {
     position: relative;
     display: table;
-    width: 75%;
+    width: 700px;
     /*overflow: auto;*/
     /*position: relative;*/
     /*min-width: 1137px;*/
     float: right;
-    margin-top: 72px;
-    margin-left: 85px;
+    padding-top: 50px;
+    /*margin-top: 72px;*/
+    /*margin-left: 85px;*/
     font: 16px roboto, sans-serif;
 }
 
@@ -334,13 +341,14 @@ h1, h2, h3, h4, h5, h6 {
 
 #twitter {
     float: left;
-    width: 200px;
+    width: 165px;
     background-image: url(../images/layout/twitter.png);
     background-repeat:no-repeat
 }
 
 #twitter p {
     padding-left: 35px;
+    color: #5EACDA;
 }
 
 #footer-nav {
@@ -359,8 +367,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav2 li {
     display: inline-block;
-    padding: 5px 8px;
+    padding: 5px 5px;
     font: 13px roboto-regular, sans-serif;
+    /*color: #91AFC9;*/
     background: url(../images/layout/Vertival_line.png) no-repeat left 50%;
 }
 
@@ -371,6 +380,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav2 a {
     text-decoration: none;
     padding: 2px 1px;
+    color: #91AFC9;
 }
 
 .nav2 a:hover {
