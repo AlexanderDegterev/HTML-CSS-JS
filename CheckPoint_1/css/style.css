@@ -183,6 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .service_header {
     display: table;
+    overflow: hidden;
     height: 92px;
     width: 192px;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
@@ -190,6 +191,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .child {
     display: table-cell;
+    height: 100%;
     vertical-align:middle;
 }
 .helper {
@@ -200,6 +202,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service h3 {
+    overflow: hidden;
     font: 24px roboto, sans-serif;
     font-weight: 700;
     /*height: 67px;*/
@@ -208,6 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service_images {
+    overflow: hidden;
     line-height: 110px;
     height: 110px;
     background: #ebf2f7 url("../images/layout/service_pic(192_110).png") no-repeat left top;
@@ -228,7 +232,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .button {
-    /*display: inline-block;*/
+    display: inline-block;
     float: left;  /*чтобы ширина кнопки зависела от контента. по идее должен подойти и display: inline-block*/
     margin: 16px 32px;
 }
