@@ -153,15 +153,15 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 140%;
 }
 
-.box-inner {
+.box-inner-left {
     background: url("../images/layout/top-left(1135-4).png") no-repeat left top;
 }
 
-.box-inner2 {
+.box-inner-right {
     background: url("../images/layout/top-right(5-5).png") no-repeat right top;
 }
 
-.box-inner2 hr {
+.box-inner-right hr {
     margin: 15px;
     border: none; /* Убираем границу */
     background-color: #f0f0f0; /* Цвет линии */
@@ -181,7 +181,7 @@ h1, h2, h3, h4, h5, h6 {
     /*background: *//*#ebf2f7*//* url("../images/layout/box-button.png") no-repeat left bottom;*/
     margin: 9.6px;
 }
-.parent {
+.service_header {
     display: table;
     height: 92px;
     width: 192px;
@@ -207,7 +207,7 @@ h1, h2, h3, h4, h5, h6 {
     /*background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;*/
 }
 
-.boximages {
+.service_images {
     line-height: 110px;
     height: 110px;
     background: #ebf2f7 url("../images/layout/service_pic(192_110).png") no-repeat left top;
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
-.boxforbutton {
+.service_footer {
     /*background-color: #ff0000;*/
     height: 76px;
     width: 190px;
@@ -368,28 +368,28 @@ h1, h2, h3, h4, h5, h6 {
     margin-right: 30px;
 }
 
-.navfooter {
+.nav-footer {
     float: right;
 }
 
-.navfooter li {
+.nav-footer li {
     display: inline-block;
     padding: 5px 5px;
     font: 13px roboto, sans-serif;
     background: url(../images/layout/Vertival_line.png) no-repeat left 50%;
 }
 
-.navfooter li:first-child {
+.nav-footer li:first-child {
     background: none;
 }
 
-.navfooter a {
+.nav-footer a {
     text-decoration: none;
     padding: 2px 1px;
     color: #91AFC9;
 }
 
-.navfooter a:hover {
+.nav-footer a:hover {
     border-radius: 5px 5px 5px 5px;
     background-color: #568cbc;
 }
