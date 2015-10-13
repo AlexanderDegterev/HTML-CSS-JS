@@ -178,36 +178,34 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     width: 192px;
     height: 282px;
-    /*background: *//*#ebf2f7*//* url("../images/layout/box-button.png") no-repeat left bottom;*/
-    margin: 9.6px;
+    /*margin: 9.6px;*/
 }
 .service_header {
-    display: table;
     overflow: hidden;
-    height: 92px;
-    width: 192px;
+    /*display: table;*/
+    max-height: 92px;
+    max-width: 192px;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
 }
 
 .child {
-    display: table-cell;
-    height: 100%;
-    vertical-align:middle;
-}
-.helper {
     display:inline-block;
+    overflow: hidden;
+    max-height: 100%;
     vertical-align:middle;
-    height:100%;
-    width:0px;
 }
 
+/*.helper {*/
+    /*display:inline-block;*/
+    /*vertical-align:middle;*/
+    /*height:100%;*/
+    /*width:0px;*/
+/*}*/
+
 .service h3 {
-    overflow: hidden;
     font: 24px roboto, sans-serif;
     font-weight: 700;
-    /*height: 67px;*/
     padding: 15px 15px 10px 10px;
-    /*background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;*/
 }
 
 .service_images {
@@ -227,9 +225,50 @@ h1, h2, h3, h4, h5, h6 {
 /*}*/
 /**/
 .service img {
-    vertical-align: middle;
-    /*padding: 12px 70px 12px;*/
+    vertical-align:middle;
 }
+
+/*Button stripe*/
+.buttonspr {
+    background-color: transparent;
+    background-image: url("../images/layout/Button_sprite.png");
+    cursor: pointer;
+    display: inline-block;
+    vertical-align:middle;
+    white-space: nowrap;
+    background-position: 0 -44px;
+    color: #FFF;
+    font: 17px roboto, sans-serif;
+    height: 44px;
+    margin: 15px 0px;
+    text-decoration: none;
+    min-width: 100px;
+    max-width: 186px;
+    text-align: center;
+    line-height: 44px;
+}
+.buttonspr:hover{
+    opacity:0.75;
+}
+.buttonspr:before {
+    background-image: url("../images/layout/Button_sprite.png");
+    content: "";
+    float: left;
+    background-position: left top;
+    height: 44px;
+    margin: 0 0 0 -4px;
+    width: 4px;
+}
+.buttonspr:after {
+    background-image: url("../images/layout/Button_sprite.png");
+    content: "";
+    float: right;
+    background-position: right bottom;
+    height: 44px;
+    margin:  0 -4px 0 0;
+    width: 4px;
+}
+/*end Button stripe*/
 
 .button {
     display: inline-block;
