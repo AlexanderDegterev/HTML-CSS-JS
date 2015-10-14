@@ -178,31 +178,33 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     width: 192px;
     height: 282px;
-    /*margin: 9.6px;*/
+    margin: 9.6px;
 }
 .service_header {
+    display: table;
     overflow: hidden;
-    /*display: table;*/
-    max-height: 92px;
-    max-width: 192px;
+    height: 92px;
+    width: 192px;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
 }
 
 .child {
-    display:inline-block;
-    overflow: hidden;
-    max-height: 100%;
+    display:table-cell;
+    /*overflow: hidden;*/
+    /*height: 92px;*/
+    height: 100%;
     vertical-align:middle;
 }
 
-/*.helper {*/
-    /*display:inline-block;*/
-    /*vertical-align:middle;*/
-    /*height:100%;*/
-    /*width:0px;*/
-/*}*/
+.helper {
+    display:inline-block;
+    vertical-align:middle;
+    height:100%;
+    width:0px;
+}
 
 .service h3 {
+    overflow: hidden;
     font: 24px roboto, sans-serif;
     font-weight: 700;
     padding: 15px 15px 10px 10px;
