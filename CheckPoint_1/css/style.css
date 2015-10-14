@@ -61,12 +61,13 @@ h1, h2, h3, h4, h5, h6 {
 /* Layout
 ----------------------------------*/
 #wrapper {
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
 }
 
 /* Header */
 .page-header {
+    max-width: 1140px;
     padding: 20px 0;
     height: 110px;
 }
@@ -127,7 +128,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .page-body {
-    width: 1140px;
+    max-width: 1140px;
+    /*width: 100%;*/
     background: #effce7 url("../images/layout/button(1140-8).png") no-repeat left bottom;
     background-color: #ffffff;
     color: #184771;
@@ -174,37 +176,41 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service {
+    overflow: hidden;
     display: inline-block;
     text-align: center;
     width: 192px;
     height: 282px;
     margin: 9.6px;
 }
-.service_header {
-    display: table;
-    overflow: hidden;
-    height: 92px;
+
+.service_header_hidden {
     width: 192px;
+    height: 92px;
+    overflow: hidden;
+    position: relative;
+}
+.service_header {
+    position: absolute;
+    display: table;
+    width: 192px;
+    height: 92px;
+    text-align: center;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
 }
 
 .child {
     display:table-cell;
-    /*overflow: hidden;*/
-    /*height: 92px;*/
-    height: 100%;
     vertical-align:middle;
+    height: 100%;
 }
 
-.helper {
-    display:inline-block;
-    vertical-align:middle;
-    height:100%;
-    width:0px;
+.service_header_wrapper {
+    -webkit-column-width: 150px;
+    column-width: 150px;
 }
 
 .service h3 {
-    overflow: hidden;
     font: 24px roboto, sans-serif;
     font-weight: 700;
     padding: 15px 15px 10px 10px;
@@ -217,6 +223,9 @@ h1, h2, h3, h4, h5, h6 {
     background: #ebf2f7 url("../images/layout/service_pic(192_110).png") no-repeat left top;
 }
 
+.service_images img {
+    vertical-align:middle;
+}
 /*.boximages img {*/
     /*width: 50%;*/
     /*height: 50%;*/
@@ -226,12 +235,9 @@ h1, h2, h3, h4, h5, h6 {
     /*top: 0; left: 0; bottom: 0; right: 0;*/
 /*}*/
 /**/
-.service img {
-    vertical-align:middle;
-}
 
 /*Button stripe*/
-.buttonspr {
+.button_sprite {
     background-color: transparent;
     background-image: url("../images/layout/Button_sprite.png");
     cursor: pointer;
@@ -249,10 +255,10 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     line-height: 44px;
 }
-.buttonspr:hover{
+.button_sprite:hover{
     opacity:0.75;
 }
-.buttonspr:before {
+.button_sprite:before {
     background-image: url("../images/layout/Button_sprite.png");
     content: "";
     float: left;
@@ -261,7 +267,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 0 0 0 -4px;
     width: 4px;
 }
-.buttonspr:after {
+.button_sprite:after {
     background-image: url("../images/layout/Button_sprite.png");
     content: "";
     float: right;
@@ -272,50 +278,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*end Button stripe*/
 
-.button {
-    display: inline-block;
-    float: left;  /*чтобы ширина кнопки зависела от контента. по идее должен подойти и display: inline-block*/
-    margin: 16px 32px;
-}
-.button div {
-    position: relative;
-    color: #fff;
-    height: 42px;
-    width: 120px;
-    background: url(../images/layout/Button.png) no-repeat; /* левые углы фона с прозрачными участками */
-    font: 17px roboto, sans-serif;
-}
-* html .button div { /* хак для ие6 чтобы с шириной кнопки проблем не было */
-    width: 10px;
-}
-.button span { /* правое скругление кнопки выносим за пределы кнопки */
-    background: url(../images/layout/Button-r.png);
-    height: 42px;
-    width: 16px;
-    display: block;
-    position: absolute;
-    z-index: 1;
-    top: 0;
-    right: -6px;
-    overflow: hidden;
-}
-.button input {
-    height: 100%;
-    cursor: pointer;
-    font: 17px roboto, sans-serif;
-    color: #ffffff;
-    margin: 0 -6px 0 0; /* чтобы кликабильным была правая часть кнопки, вынесенная за ее пределы */
-    padding: 2px 6px 5px 6px;
-    overflow: visible; /* убираем необнуляемые внутренние отступы для ie6-7 */
-    border: none;
-    position: relative;
-    z-index: 2;
-    background: none;
-}
-
-
 .service_footer {
-    /*background-color: #ff0000;*/
     height: 76px;
     width: 190px;
     background: #ebf2f7;
@@ -336,7 +299,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* OUR SERVICES */
 .our_services {
-    width: 1140px;
+    max-width: 1140px;
     height: 283px;
     clear: both;
     min-width: 572px;
@@ -373,7 +336,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 .page-footer {
-    width: 1140px;
+    max-width: 1140px;
     margin: auto;
     padding: 10px 0;
     height: 148px;
