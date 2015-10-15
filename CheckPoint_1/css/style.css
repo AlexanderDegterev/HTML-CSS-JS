@@ -12,6 +12,9 @@
 /*}*/
 body {
     background: #184872 url("../images/layout/gradien.jpg") repeat-x;
+    background-image:  url("../images/layout/Background_light_top.jpg")/*, url("../images/layout/Background_light_button.jpg")*/;
+    background-position: top;
+    background-repeat: no-repeat;
     font: normal 19px roboto, sans-serif;
 }
 
@@ -61,6 +64,9 @@ h1, h2, h3, h4, h5, h6 {
 /* Layout
 ----------------------------------*/
 #wrapper {
+    background-image: url("../images/layout/Background_light_button.jpg");
+    background-position:bottom;
+    background-repeat: no-repeat;
     max-width: 1140px;
     margin: auto;
 }
@@ -77,7 +83,11 @@ h1, h2, h3, h4, h5, h6 {
     padding: 30px 0px 0px 22px;
     /*height: 100px;*/
     /*width: 300px;*/
-    /*background: #effce7 url("../images/layout/Logo_full.png") no-repeat left bottom;*/
+    /*background: #effce7 url("../images/layout/Logo_full.png") no-repeat left bottom;
+    width: 998px;
+    height: 526px;
+
+*/
     /*background-image: url("../images/layout/Logo_full.png");*/
 }
 
