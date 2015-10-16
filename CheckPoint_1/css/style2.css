@@ -124,11 +124,32 @@ h1, h2, h3, h4, h5, h6 {
     padding: 5px 15px;
     border-radius: 5px 5px 5px 5px;
     color: #ffffff;
+    text-indent: 0px;
+    border: 1px solid #a9a9a9;
+    /*-moz-transition: all 1s ease-in-out;*/
+    /*-o-transition: all 1s ease-in-out;*/
+    -webkit-transition: all 1s ease-in-out;
+    /*cursor: pointer;}*/
 }
 
 .nav a:hover {
     border-radius: 5px 5px 5px 5px;
     background-color: #568cbc;
+    -webkit-transform: translate(0,20px);
+    -moz-transform: translate(0,20px);
+    -o-transform: translate(0,20px);
+}
+
+.nav a:hover::after {
+    content: attr(data-title); /* Выводим текст */
+    position: absolute; /* Абсолютное позиционирование */
+    left: 20%; top: 80%; /* Положение подсказки */
+    z-index: 1; /* Отображаем подсказку поверх других элементов */
+    background: rgba(255,255,230,0.9); /* Полупрозрачный цвет фона */
+    font-family: Arial, sans-serif; /* Гарнитура шрифта */
+    font-size: 11px; /* Размер текста подсказки */
+    /*padding: 5px 10px; *//* Поля */
+    border: 1px solid #333; /* Параметры рамки */
 }
 
 .nav a.active {
