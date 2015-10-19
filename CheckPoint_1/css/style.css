@@ -4,17 +4,10 @@
     padding: 0;
 }
 
-/*@font-face {*/
-/*font-family: roboto-black;*/
-/*src: url(../fonts/Roboto-Black.ttf);*/
-/*font-family: roboto-light;*/
-/*src: url(../fonts/Roboto-Light.ttf);*/
-/*}*/
 body {
-    background: #184872 url("../images/layout/gradien.jpg") repeat-x;
-    background-image:  url("../images/layout/Background_light_top.jpg"), url("../images/layout/Background_light_button.jpg");
-    background-position: top center, bottom center;
-    background-repeat: no-repeat;
+    background: url("../images/layout/Background_light_top.jpg") top center no-repeat,
+                url("../images/layout/Background_light_button.jpg") bottom center no-repeat,
+                url("../images/layout/gradien_site2.jpg") repeat;
     font: normal 19px roboto, sans-serif;
 }
 
@@ -73,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 1140px;
     padding: 20px 0;
     height: 110px;
+    color: #ffffff;
 }
 
 .page-header a {
@@ -82,87 +76,72 @@ h1, h2, h3, h4, h5, h6 {
 
 #logo {
     padding: 0;
-    margin-left: 30px;
+    margin-left: 23px;
     height: 100px;
     width: 300px;
     background: url("../images/layout/Logo_full.png") no-repeat left bottom;
-}
-
-.page-header h2 {
-    float: left;
-    padding: 0px;
-    padding-top: 50px;
-    max-width: 300px;
-    font: 28px roboto-ultra-bold, sans-serif;
-    color: #ffffff;
 }
 
 .page-header p {
     margin-top: 85px;
     max-width: 300px;
     font: 16px roboto, sans-serif;
-    color: #ffffff;
 }
 
 .nav {
     position: relative;
     display: table;
-    /*width: 700px;*/
+    width: 640px;
     float: right;
     padding-top: 50px;
-    font: 15px roboto, sans-serif;
-    font-weight: 400;
+    font: 400 15px roboto, sans-serif;
 }
 
 .nav li {
     display: inline-block;
+    background: url(../images/layout/Vertival_line_top.png) no-repeat left 50%;
+}
+
+.nav li:first-child {
+    background: none;
 }
 
 .nav a {
-    display: block;
+    /*display: block;*/
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 5px 5px 5px 5px;
     color: #ffffff;
 }
 
-.nav a:hover {
-    border-radius: 5px 5px 5px 5px;
+.nav a:hover, .nav a.active {
     background-color: #568cbc;
+    /*background: none;*/
 }
 
 .nav a.active {
-    display: block;
-    text-decoration: none;
-    border-radius: 5px 5px 5px 5px;
     background-color: #568cbc;
 }
 
 .page-body {
     max-width: 1140px;
-    /*width: 100%;*/
-    background: #effce7 url("../images/layout/button(1140-8).png") no-repeat left bottom;
-    background-color: #ffffff;
+    background: #ffffff url("../images/layout/button(1140-8).png") no-repeat left bottom;
     color: #184771;
-    /*min-height: 600px;*/
     margin: auto;
     padding-bottom: 6px;
 }
 
 .page-body h1 {
     text-align: center;
-    padding: 15px;
-    padding-top: 30px;
-    font: 40px roboto, sans-serif;
-    font-weight: 700;
+    padding: 50px 15px 15px 15px;
+    font: 700 40px roboto, sans-serif;
 
 }
 
 .page-body h3 {
     text-align: center;
-    padding: 15px;
-    font: 24px roboto, sans-serif;
-    font-weight: 300;
+    padding: 5px 15px 18px 15px;
+    font: 300 24px roboto, sans-serif;
     line-height: 140%;
 }
 
@@ -176,17 +155,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .box-inner-right hr {
     margin: 15px;
-    border: none; /* Убираем границу */
-    background-color: #f0f0f0; /* Цвет линии */
-    color: #f0f0f0; /* Цвет линии для IE6-7 */
-    height: 2px; /* Толщина линии */
+    border: none;
+    background-color: #f0f0f0; /* Line color */
+    color: #f0f0f0; /* Color line for IE6-7 */
+    height: 2px;
 }
 
 .services {
     margin: 15px;
-    border-top-color: #dfdfdf; /* Цвет линии сверху */
-    border-top-style: solid; /* Стиль линии сверху */
-    border-top-width: 1px; /* Толщина линии сверху */
+    margin-bottom: 47px;
+    border-top: 1px solid #dfdfdf;
 }
 
 .service {
@@ -195,7 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     text-align: center;
     width: 192px;
     height: 282px;
-    margin: 25px 10px 0px 15px
+    margin: 37px 10px 0px 15px
 }
 
 .service_header_hidden {
@@ -225,8 +203,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service h3 {  /*overflow: hidden; + display table:???*/
-    font: 24px roboto, sans-serif;
-    font-weight: 700;
+    font: 700 24px roboto, sans-serif;
     padding: 15px 15px 10px 10px;
 }
 
@@ -239,17 +216,19 @@ h1, h2, h3, h4, h5, h6 {
 
 .service_images img {
     vertical-align:middle;
+    max-width: 64px;
+    max-height: 64px;
 }
 
 /*Button stripe*/
 .button_sprite {
     background-color: transparent;
     background-image: url("../images/layout/Button_sprite.png");
+    background-position: 0 -44px;
     cursor: pointer;
     display: inline-block;
     vertical-align:middle;
     white-space: nowrap;
-    background-position: 0 -44px;
     color: #FFF;
     font: 17px roboto, sans-serif;
     height: 44px;
@@ -264,19 +243,17 @@ h1, h2, h3, h4, h5, h6 {
     opacity:0.75;
 }
 .button_sprite:before {
-    background-image: url("../images/layout/Button_sprite.png");
+    background: url("../images/layout/Button_sprite.png") left top;
     content: "";
     float: left;
-    background-position: left top;
     height: 44px;
     margin: 0 0 0 -4px;
     width: 4px;
 }
 .button_sprite:after {
-    background-image: url("../images/layout/Button_sprite.png");
+    background: url("../images/layout/Button_sprite.png") right bottom;
     content: "";
     float: right;
-    background-position: right bottom;
     height: 44px;
     margin:  0 -4px 0 0;
     width: 4px;
@@ -287,19 +264,9 @@ h1, h2, h3, h4, h5, h6 {
     height: 76px;
     width: 190px;
     background: #ebf2f7;
-    border-right-color: #dfdfdf; /* Цвет линии сверху */
-    border-right-style: solid; /* Стиль линии сверху */
-    border-right-width: 1px; /* Толщина линии сверху */
-    border-left-color: #dfdfdf; /* Цвет линии слева */
-    border-left-style: solid; /* Стиль линии */
-    border-left-width: 1px; /* Толщина линии */
-    border-bottom-color: #dfdfdf; /* Цвет линии слева */
-    border-bottom-style: solid; /* Стиль линии */
-    border-bottom-width: 1px; /* Толщина линии */
-}
-
-.box-button {
-    width: 50px;
+    border-right: 1px solid #dfdfdf;
+    border-left: 1px solid #dfdfdf;
+    border-bottom: 1px solid #dfdfdf;
 }
 
 /* OUR SERVICES */
@@ -324,17 +291,15 @@ h1, h2, h3, h4, h5, h6 {
 .our_services h1 {
     text-align: center;
     padding: 26px 15px 0px 15px;
-    font: 40px roboto, sans-serif;
-    font-weight: 700;
+    font: 700 40px roboto, sans-serif;
     color: #17466F;
 
 }
 
 .our_services p {
     text-align: center;
-    padding: 12px 25px;
-    font: 19px roboto, sans-serif;
-    font-weight: 300;
+    padding: 12px 30px;
+    font: 300 19px roboto, sans-serif;
     color: #17466F;
     line-height: 190%;
 }
@@ -360,12 +325,12 @@ h1, h2, h3, h4, h5, h6 {
 
 #link {
     display: block;
-    margin-left: 30px;
+    margin-left: 7px;
     text-align: center;
     line-height: 35px;
     width: 200px;
     height: 35px;
-    background:url(../images/layout/Twitter.png) no-repeat;
+    background:url(../images/layout/twitter.png) no-repeat;
 }
 
 #link a {
@@ -403,7 +368,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #footer-nav {
-    margin-right: 30px;
+    margin-right: 35px;
+    margin-top: 0px;
 }
 
 .nav-footer {
@@ -412,7 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav-footer li {
     display: inline-block;
-    padding: 5px 5px;
+    padding: 5px 5px 5px 10px;
     font: 13px roboto, sans-serif;
     background: url(../images/layout/Vertival_line.png) no-repeat left 50%;
 }
@@ -434,6 +400,3 @@ h1, h2, h3, h4, h5, h6 {
 /* Sidebar */
 .sidebar {
 }
-
-/* Content
-----------------------------------*/
