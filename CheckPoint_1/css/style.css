@@ -107,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav a {
-    /*display: block;*/
     text-decoration: none;
     padding: 5px 15px;
     border-radius: 5px 5px 5px 5px;
@@ -116,7 +115,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav a:hover, .nav a.active {
     background-color: #568cbc;
-    /*background: none;*/
 }
 
 .nav a.active {
@@ -182,18 +180,12 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 .service_header {
-    position: absolute;
-    display: table;
+    display:table-cell;
+    vertical-align:middle;
     width: 192px;
     height: 92px;
     text-align: center;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
-}
-
-.child {
-    display:table-cell;
-    vertical-align:middle;
-    height: 100%;
 }
 
 .service_header_wrapper {
@@ -201,13 +193,12 @@ h1, h2, h3, h4, h5, h6 {
     column-width: 150px;
 }
 
-.service h3 {  /*overflow: hidden; + display table:???*/
+.service h3 {
     font: 700 24px roboto, sans-serif;
     padding: 15px 15px 10px 10px;
 }
 
 .service_images {
-    overflow: hidden;
     line-height: 110px;
     height: 110px;
     background: #ebf2f7 url("../images/layout/service_pic(192_110).png") no-repeat left top;
@@ -221,9 +212,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /*Button stripe*/
 .button_sprite {
-    background-color: transparent;
-    background-image: url("../images/layout/Button_sprite.png");
-    background-position: 0 -44px;
+    background: transparent url("../images/layout/Button_sprite.png") 0 -44px;
     cursor: pointer;
     display: inline-block;
     vertical-align:middle;
@@ -231,7 +220,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #FFF;
     font: 17px roboto, sans-serif;
     height: 44px;
-    margin: 15px 0px;
+    margin: 15px 10px 15px 10px;
     text-decoration: none;
     min-width: 100px;
     max-width: 186px;
@@ -261,7 +250,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .service_footer {
     height: 76px;
-    width: 190px;
     background: #ebf2f7;
     border-right: 1px solid #dfdfdf;
     border-left: 1px solid #dfdfdf;
@@ -292,7 +280,6 @@ h1, h2, h3, h4, h5, h6 {
     padding: 26px 15px 0px 15px;
     font: 700 40px roboto, sans-serif;
     color: #17466F;
-
 }
 
 .our_services p {
@@ -333,18 +320,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #link a {
-    display: block;
     margin-left: 30px;
     text-align: center;
     line-height: 35px;
     width: 200px;
     height: 35px;
-}
-#link span {
-    display: block;
-    width: 0;
-    height: 0;
-    overflow: hidden;
 }
 
 #twitter {
@@ -353,17 +333,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #twitter a {
-    float: left;
     margin-top: 5px;
     color: #5eacda;
     font: 13px roboto, sans-serif;
     text-decoration: none;
-}
-
-#twitter p {
-    float: left;
-    padding-left: 35px;
-    color: #5EACDA;
 }
 
 #footer-nav {
@@ -395,7 +368,4 @@ h1, h2, h3, h4, h5, h6 {
 .nav-footer a:hover {
     border-radius: 5px 5px 5px 5px;
     background-color: #568cbc;
-}
-/* Sidebar */
-.sidebar {
 }

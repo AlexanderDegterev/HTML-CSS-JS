@@ -211,7 +211,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service {
-    overflow: hidden;
+    /*overflow: hidden;*/
     display: inline-block;
     text-align: center;
     width: 192px;
@@ -226,18 +226,21 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
 }
 .service_header {
-    position: absolute;
-    display: table;
+    /*position: absolute;*/
+    /*overflow: hidden;*/
+    /*position: relative;*/
+    display: table-cell;
     width: 192px;
     height: 92px;
     text-align: center;
+    vertical-align:middle;
     background: #ebf2f7 url("../images/layout/service(192_93).png") no-repeat left top;
 }
 
 .child {
-    display:table-cell;
-    vertical-align:middle;
-    height: 100%;
+    /*display:table-cell;*/
+    /*vertical-align:middle;*/
+    /*height: 100%;*/
 }
 
 .service_header_wrapper {
@@ -246,6 +249,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .service h3 {  /*overflow: hidden; + display table:???*/
+    -webkit-column-width: 150px;
+    column-width: 150px;
+    /*overflow: hidden;*/
+    /*display: table;*/
     font: 24px roboto, sans-serif;
     font-weight: 700;
     padding: 15px 15px 10px 10px;
