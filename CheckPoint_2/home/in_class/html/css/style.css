@@ -1,0 +1,150 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html{
+	background: #f8f5c6 url("../images/layout/background-repeat.png") repeat top center;
+}
+body{
+	color: #000;
+	font: normal 14px Arial, Helvetica, sans-serif;
+	background: url("../images/layout/background-top-repeat.png") repeat-x center 30px;	
+}
+img{	
+	border: 0;
+}		
+a{
+	color: #0ebaf2;
+	outline: none;
+}
+a:hover{
+	color: #000;	
+}
+a:active{
+	color: #c60101;
+}
+a:visited{
+	color: #c60101;
+}	
+ul li{
+	list-style: none;
+}		
+table{
+    width: 100%;
+	border-collapse: collapse;
+}	
+table td{		  			 
+	vertical-align: top;	
+}
+input, textarea, select, button{
+	font: normal 14px Arial, Helvetica, sans-serif;
+	outline: none;	
+}
+h1, h2, h3, h4, h5, h6{
+	font-weight: normal;
+}
+
+	
+/* Layout
+----------------------------------*/	
+.wrapper{
+min-height: 400px;
+	background: url("../images/layout/fence-repeat.png") repeat-x center top;
+}
+
+.main{
+	width: 960px;
+	margin: 0 auto;	
+	min-height: 200px;
+}
+
+/* Header */	
+.page-header{
+	
+}
+.page-header .header-extra{
+	height: 45px;
+	overflow: hidden;
+	background: red;	
+}
+
+.page-header .header-primary{
+	height: 117px;
+	padding: 9px 0 0;
+	position: relative;
+}
+.page-header .logo{
+	width: 116px;
+	height: 117px;
+	float: left;
+	text-indent: -90000px;
+	background: url("../images/layout/logo.png") no-repeat 0 0;
+}
+.page-header .logo:hover{
+	opacity: 0.7;
+}
+.page-header .search{
+	width: 402px;
+	height: 26px;
+	margin-left: -210px;
+	padding: 8px 10px 0;
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	background: url("../images/layout/background-repeat.png") repeat top center;
+	border-top: solid 1px #1a876d;
+	border-radius: 5px 5px 0 0;
+}
+.page-header .search form{
+	overflow: hidden;
+	background: url("../images/layout/search-repeat.png") repeat-x 0 1px;
+}
+.page-header .search input{
+	float: left;
+}
+.page-header .search input[type="text"]{
+	width: 300px;
+	height: 22px;	
+	padding: 0 10px;	
+	color: #979797;
+	font-size: 13px;
+	border: solid 1px #aca856;
+	border-right: none;
+	-webkit-box-shadow:inset 0 0 15px 1px #ededed;
+	box-shadow:inset 0 0 15px 1px #ededed;
+}
+.page-header .search input[type="text"]:focus{
+	color: #000;
+	border-color: #000;
+}
+.page-header .search input[type="submit"]{
+	width: 81px;
+	height: 24px;
+	color: #901c03;
+	font-weight: bold;
+	font-size: 11px;
+	text-align: left;
+	text-indent: 7px;
+	cursor: pointer;
+	text-transform: uppercase;
+	border: solid 1px #e8360f;
+	background: url("../images/layout/search.png") no-repeat 58px 3px;
+}
+.page-header .search input[type="submit"]:hover{
+	color: #000;
+	border-color: #000;
+}
+
+
+
+
+/* Footer */
+.page-footer{}
+
+
+/* Sidebar */
+.sidebar{}
+	
+
+/* Content
+----------------------------------*/
