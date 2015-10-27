@@ -69,10 +69,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome h1 {
-    text-align: inherit;
-    padding: 26px 15px 0px 15px;
+    text-align: justify;
+    padding: 150px 200px 0px 200px;
     font: 700 42px Titillium, sans-serif;
-    color: #f7f3ea;
+    color: #F7F3EA;
 }
 
 .welcome .logo {
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     padding: 5px 5px 5px 10px;
     font: 16px Titillium, sans-serif;
-    background: none url() no-repeat left 50%;
+    background: none no-repeat left 50%;
 }
 
 .welcome .navigation a {
@@ -120,8 +120,9 @@ h1, h2, h3, h4, h5, h6 {
     width: 292px;
     border-radius: 5px 5px 5px 5px;
     background-color: #eb7d4b;
+    color: white;
     text-align: center;
-    line-height: 44px;
+    line-height: 64px;
 }
 
 /*.welcome .button a.button2 {*/
