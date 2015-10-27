@@ -69,8 +69,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .welcome h1 {
-    text-align: justify;
-    padding: 150px 200px 0px 200px;
+    text-align: center;
+    text-indent: 70px;
+    padding: 239px 220px 0px 220px;
     font: 700 42px Titillium, sans-serif;
     color: #F7F3EA;
 }
@@ -79,6 +80,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 118px;
     height: 37px;
     float: left;
+    margin: 56px 0px 0px 212px;
     text-indent: -90000px;
     background: url("../images/layout/logo.png") no-repeat 0 0;
 }
@@ -89,6 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome .navigation {
     float: right;
+    margin: 62px 190px 0px 0px;
     text-align: center;
 }
 
@@ -115,6 +118,8 @@ h1, h2, h3, h4, h5, h6 {
 .forbut {
     cursor: pointer;
     display: inline-block;
+    text-transform: uppercase;
+    margin-top: 60px;
     text-decoration: none;
     height: 70px;
     width: 292px;
@@ -122,7 +127,8 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #eb7d4b;
     color: white;
     text-align: center;
-    line-height: 64px;
+    line-height: 68px;
+    border-bottom: 4px solid #c86a40;
 }
 
 /*.welcome .button a.button2 {*/
@@ -142,6 +148,54 @@ h1, h2, h3, h4, h5, h6 {
     width: 1440px;
     height: 747px;
     margin: 0 auto;
+    color: white;
+}
+
+.services h2 {
+    text-align: center;
+    padding: 120px 0px 0px 0px;
+    font: 700 40px Titillium, sans-serif;
+}
+
+.services_line {
+    height: 4px;
+    margin: 10px 0px 10px 0px;
+    text-align: center;
+    background: url("../images/layout/services_line.png") no-repeat center;
+}
+
+.services_content {
+    text-align: center;
+    margin: 0px 420px;
+    font: 400 18px Titillium, sans-serif;
+}
+
+.service {
+    overflow: hidden;
+    display: inline-block;
+    text-align: center;
+    width: 260px;
+    height: 450px;
+    margin: 37px 10px 0px 15px
+}
+
+.service_images {
+    line-height: 110px;
+    height: 110px;
+}
+
+.service_images img {
+    vertical-align:middle;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.service_header {
+    font: 700 24px Titillium, sans-serif;
+}
+
+.service_content {
+    font: 300 16px Titillium, sans-serif;
 }
 
 .team {
