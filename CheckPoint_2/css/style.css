@@ -70,8 +70,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome h1 {
     text-align: center;
-    text-indent: 70px;
-    padding: 239px 220px 0px 220px;
+    text-indent: 60px;
+    padding: 230px 222px 0px 222px;
     font: 700 42px Titillium, sans-serif;
     color: #F7F3EA;
 }
@@ -91,7 +91,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome .navigation {
     float: right;
-    margin: 62px 190px 0px 0px;
+    margin: 62px 162px 0px 0px;
     text-align: center;
 }
 
@@ -105,7 +105,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .welcome .navigation a {
     text-decoration: none;
-    padding: 5px 15px;
+    padding: 5px 10px;
     color: #efe8f2;
     background-color: #87509c;
 }
@@ -119,7 +119,7 @@ h1, h2, h3, h4, h5, h6 {
     cursor: pointer;
     display: inline-block;
     text-transform: uppercase;
-    margin-top: 60px;
+    margin-top: 52px;
     text-decoration: none;
     height: 70px;
     width: 292px;
@@ -153,19 +153,20 @@ h1, h2, h3, h4, h5, h6 {
 
 .services h2 {
     text-align: center;
-    padding: 120px 0px 0px 0px;
+    padding: 111px 0px 0px 0px;
     font: 700 40px Titillium, sans-serif;
 }
 
 .services_line {
     height: 4px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0px 18px 0px;
     text-align: center;
     background: url("../images/layout/services_line.png") no-repeat center;
 }
 
 .services_content {
     text-align: center;
+    letter-spacing: 1px;
     margin: 0px 420px;
     font: 400 18px Titillium, sans-serif;
 }
