@@ -48,8 +48,22 @@ input, textarea, select, button {
     outline: none;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h3, h4, h5, h6 {
     font-weight: normal;
+}
+h2 {
+    text-align: center;
+    padding: 111px 0px 0px 0px;
+    font: 700 40px Titillium, sans-serif;
+    color: white;
+}
+
+.DartBlue {
+    color: #3C4761;
+}
+
+.black{
+    color: #27283D;
 }
 
 /* Layout
@@ -151,6 +165,10 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+.service_wrapper {
+    margin: 20px 174px 0px
+}
+
 .services h2 {
     text-align: center;
     padding: 111px 0px 0px 0px;
@@ -159,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .services_line {
     height: 4px;
-    margin: 10px 0px 18px 0px;
+    margin: 13px 0px 16px 0px;
     text-align: center;
     background: url("../images/layout/services_line.png") no-repeat center;
 }
@@ -167,7 +185,7 @@ h1, h2, h3, h4, h5, h6 {
 .services_content {
     text-align: center;
     letter-spacing: 1px;
-    margin: 0px 420px;
+    margin: 0px 339px;
     font: 400 18px Titillium, sans-serif;
 }
 
@@ -175,28 +193,33 @@ h1, h2, h3, h4, h5, h6 {
     overflow: hidden;
     display: inline-block;
     text-align: center;
-    width: 260px;
-    height: 450px;
-    margin: 37px 10px 0px 15px
+    width: 268px;
+    height: 510px;
+    margin: 0px 0px 0px 0px;
 }
 
 .service_images {
-    line-height: 110px;
-    height: 110px;
+    line-height: 247px;
+    height: 247px;
 }
 
 .service_images img {
     vertical-align:middle;
-    max-width: 100px;
-    max-height: 100px;
+    max-width: 140px;
+    max-height: 140px;
 }
 
 .service_header {
+    text-transform: uppercase;
     font: 700 24px Titillium, sans-serif;
+    margin-top: 0px;
 }
 
 .service_content {
+    margin-top: 18px;
     font: 300 16px Titillium, sans-serif;
+    line-height: 23px;
+
 }
 
 .team {
@@ -204,6 +227,23 @@ h1, h2, h3, h4, h5, h6 {
     width: 1440px;
     height: 914px;
     margin: 0 auto;
+}
+
+.team_photo {
+    padding-top: 0px;
+    margin: 62px 24px;
+    width: 200px;
+    height: 200px;
+    background: #878787;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+}
+
+.team_prof {
+    font: 700 16px Titillium, sans-serif;
+    color:#30BAE7;
+    line-height: 23px;
 }
 
 .skills {
