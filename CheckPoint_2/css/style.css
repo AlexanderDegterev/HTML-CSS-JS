@@ -58,7 +58,7 @@ h2 {
     color: white;
 }
 
-.DartBlue {
+.darkblue {
     color: #3C4761;
 }
 
@@ -129,7 +129,7 @@ h2 {
     background-color: #643a79;
 }
 
-.forbut {
+.button {
     cursor: pointer;
     display: inline-block;
     text-transform: uppercase;
@@ -144,18 +144,6 @@ h2 {
     line-height: 68px;
     border-bottom: 4px solid #c86a40;
 }
-
-/*.welcome .button a.button2 {*/
-    /*-webkit-border-radius: 28;*/
-    /*-moz-border-radius: 28;*/
-    /*border-radius: 28px;*/
-    /*font-family: Arial;*/
-    /*color: #ffffff;*/
-    /*font-size: 20px;*/
-    /*background: #eb7d4b;*/
-    /*padding: 10px 20px 10px 20px;*/
-    /*text-decoration: none;*/
-/*}*/
 
 .services {
     background-color: #17c2a4;
@@ -184,7 +172,7 @@ h2 {
 
 .services_content {
     text-align: center;
-    letter-spacing: 1px;
+    letter-spacing: 0px;
     margin: 0px 339px;
     font: 400 18px Titillium, sans-serif;
 }
@@ -194,7 +182,7 @@ h2 {
     display: inline-block;
     text-align: center;
     width: 268px;
-    height: 510px;
+    height: 560px;
     margin: 0px 0px 0px 0px;
 }
 
@@ -210,15 +198,18 @@ h2 {
 }
 
 .service_header {
+    overflow: hidden;
+    height: 33px;
     text-transform: uppercase;
     font: 700 24px Titillium, sans-serif;
     margin-top: 0px;
 }
 
 .service_content {
-    margin-top: 18px;
+    margin: 18px 20px 0px 20px;
     font: 300 16px Titillium, sans-serif;
     line-height: 23px;
+    height: 150px;
 
 }
 
@@ -231,7 +222,7 @@ h2 {
 
 .team_photo {
     padding-top: 0px;
-    margin: 62px 24px;
+    margin: 49px auto;
     width: 200px;
     height: 200px;
     background: #878787;
@@ -246,11 +237,39 @@ h2 {
     line-height: 23px;
 }
 
+.social-icons li {
+    display: inline-block;
+    padding: 0px 5px 0px 5px;
+}
+
 .skills {
     background-color: #ffffff;
     width: 1440px;
     height: 655px;
     margin: 0 auto;
+}
+
+.skills_indicator {
+    padding-top: 0px;
+    margin: 64px auto 27px;
+    width: 160px;
+    height: 160px;
+}
+
+.ind1 {
+    background: url("../images/layout/skills_1.png") no-repeat center;
+}
+
+.ind2 {
+    background: url("../images/layout/skills_2.png") no-repeat center;
+}
+
+.ind3 {
+    background: url("../images/layout/skills_3.png") no-repeat center;
+}
+
+.ind4 {
+    background: url("../images/layout/skills_4.png") no-repeat center;
 }
 
 .portfolio {
