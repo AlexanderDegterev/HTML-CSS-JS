@@ -6,7 +6,7 @@
 
 body {
     background-color: #bfbfbf;
-    font: normal 19px Titillium, sans-serif;
+    font: normal 19px Titillium Web, sans-serif;
 }
 
 img {
@@ -53,8 +53,9 @@ h1, h3, h4, h5, h6 {
 }
 h2 {
     text-align: center;
-    padding: 111px 0px 0px 0px;
-    font: 700 40px Titillium, sans-serif;
+    padding: 100px 0px 0px 0px;
+    font: 700 40px Titillium Web, sans-serif;
+    letter-spacing: 4px;
     color: white;
 }
 
@@ -84,9 +85,10 @@ h2 {
 
 .welcome h1 {
     text-align: center;
-    text-indent: 60px;
-    padding: 230px 222px 0px 222px;
-    font: 700 42px Titillium, sans-serif;
+    text-indent: 44px;
+    padding: 227px 276px 0px;
+    font: 700 42px Titillium Web, sans-serif;
+    line-height: 50px;
     color: #F7F3EA;
 }
 
@@ -105,7 +107,7 @@ h2 {
 
 .welcome .navigation {
     float: right;
-    margin: 62px 162px 0px 0px;
+    margin: 57px 200px 0px 0px;
     text-align: center;
 }
 
@@ -113,7 +115,7 @@ h2 {
 .welcome .navigation li{
     display: inline-block;
     padding: 5px 5px 5px 10px;
-    font: 16px Titillium, sans-serif;
+    font: 16px Titillium Web, sans-serif;
     background: none no-repeat left 50%;
 }
 
@@ -145,6 +147,11 @@ h2 {
     border-bottom: 4px solid #c86a40;
 }
 
+.green {
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+}
+
 .services {
     background-color: #17c2a4;
     width: 1440px;
@@ -154,18 +161,19 @@ h2 {
 }
 
 .service_wrapper {
-    margin: 20px 174px 0px
+    margin: 16px 174px 0px
 }
 
-.services h2 {
-    text-align: center;
-    padding: 111px 0px 0px 0px;
-    font: 700 40px Titillium, sans-serif;
-}
+/*.services h2 {*/
+    /*text-align: center;*/
+    /*padding: 100px 0px 0px 0px;*/
+    /*letter-spacing: 4px;*/
+    /*font: 700 40px Titillium Web, sans-serif;*/
+/*}*/
 
 .services_line {
     height: 4px;
-    margin: 13px 0px 16px 0px;
+    margin: 5px 0px 16px 0px;
     text-align: center;
     background: url("../images/layout/services_line.png") no-repeat center;
 }
@@ -174,7 +182,7 @@ h2 {
     text-align: center;
     letter-spacing: 0px;
     margin: 0px 339px;
-    font: 400 18px Titillium, sans-serif;
+    font: 400 18px Titillium Web, sans-serif;
 }
 
 .service {
@@ -187,8 +195,8 @@ h2 {
 }
 
 .service_images {
-    line-height: 247px;
-    height: 247px;
+    line-height: 238px;
+    height: 238px;
 }
 
 .service_images img {
@@ -201,13 +209,13 @@ h2 {
     overflow: hidden;
     height: 33px;
     text-transform: uppercase;
-    font: 700 24px Titillium, sans-serif;
+    font: 700 24px Titillium Web, sans-serif;
     margin-top: 0px;
 }
 
 .service_content {
     margin: 18px 20px 0px 20px;
-    font: 300 16px Titillium, sans-serif;
+    font: 300 16px Titillium Web, sans-serif;
     line-height: 23px;
     height: 150px;
 
@@ -232,7 +240,7 @@ h2 {
 }
 
 .team_prof {
-    font: 700 16px Titillium, sans-serif;
+    font: 700 16px Titillium Web, sans-serif;
     color:#30BAE7;
     line-height: 23px;
 }
@@ -256,6 +264,15 @@ h2 {
     height: 160px;
 }
 
+.skills_indicator p {
+    padding: 40px 6px 0px 8px;
+    font: 300 50px Titillium Web, sans-serif;
+}
+
+.skills_indicator span {
+    font: 300 32px Titillium Web, sans-serif;
+}
+
 .ind1 {
     background: url("../images/layout/skills_1.png") no-repeat center;
 }
@@ -272,11 +289,17 @@ h2 {
     background: url("../images/layout/skills_4.png") no-repeat center;
 }
 
+.skills_percent {
+    margin: 0px;
+    padding: 0px;
+}
+
 .portfolio {
     background-color: #ffdd99;
     width: 1440px;
     height: 1420px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .testimonials {
@@ -309,7 +332,7 @@ h2 {
 .nav-footer li {
     display: inline-block;
     padding: 5px 5px 5px 10px;
-    font: 13px roboto, sans-serif;
+    font: 13px Titillium Web, sans-serif;
     background: url() no-repeat left 50%;
 }
 
