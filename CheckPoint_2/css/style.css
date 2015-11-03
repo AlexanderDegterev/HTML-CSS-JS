@@ -302,6 +302,77 @@ h2 {
     text-align: center;
 }
 
+.tabs {
+    position: relative;
+    min-height: 917px;
+    clear: both;
+    margin: 15px 0;
+}
+
+.tab {
+    float: left;
+    display: inline-block;
+    margin-top: 28px;
+}
+
+.tab label {
+    background: #ebc985;
+    padding: 5px 27px 5px 27px;
+    border: 1px solid #ccc;
+    border-radius: 7px 7px 7px 7px;
+    margin-left: 9px;
+    position: relative;
+    left: 523px;
+}
+
+.tab [type=radio] {
+    display: none;
+}
+
+.content {
+    display: inline-block;
+    position: absolute;
+    top: 15px;
+    left: 0;
+    /*background: #ffffff;*/
+    right: 0;
+    bottom: 0;
+    padding: 20px 155px 0px 155px;
+    margin-top: 0px;
+    /*border: 1px solid #ccc;*/
+}
+[type=radio]:checked ~ label {
+    background: #ffffff;
+    border-bottom: 1px solid white;
+    z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+    z-index: 1;
+}
+
+.service_portfolio {
+    float: left;
+    overflow: hidden;
+    display: inline-block;
+    padding: 0px 10px 0px 10px;
+    text-align: center;
+    width: 541px;
+    height: 452px;
+    margin: 0px;
+    background: url("../images/layout/PC_clear.png") no-repeat center;
+}
+
+.service_portfolio_images {
+    margin-top: 116px;
+}
+
+.service_portfolio_header h3 {
+    margin-top: 50px;
+    text-transform: uppercase;
+    font: 400 18px Titillium Web, sans-serif;
+}
+
+
 .testimonials {
     background-color: #d74680;
     width: 1440px;
