@@ -84,9 +84,12 @@ h2 {
 }
 
 .welcome h1 {
+    width: 849px;
+    height: 103px;
+    overflow: hidden;
     text-align: center;
-    text-indent: 44px;
-    padding: 227px 276px 0px;
+    /*text-indent: 44px;*/
+    padding: 227px 0px 0px;
     font: 700 42px Titillium Web, sans-serif;
     line-height: 50px;
     color: #F7F3EA;
@@ -129,6 +132,12 @@ h2 {
 .welcome .navigation a:hover {
     border-radius: 5px 5px 5px 5px;
     background-color: #643a79;
+}
+
+.wrapper-h1 {
+    /*-webkit-column-height: 150px;*/
+    /*-moz-column-height: 150px;*/
+    /*column-height: 150px;*/
 }
 
 .button {
@@ -310,9 +319,10 @@ h2 {
 }
 
 .tab {
-    float: left;
+    /*float: left;*/
     display: inline-block;
     margin-top: 28px;
+    left: 523px;
 }
 
 .tab label {
@@ -322,7 +332,8 @@ h2 {
     border-radius: 7px 7px 7px 7px;
     margin-left: 9px;
     position: relative;
-    left: 523px;
+    /*left: 523px;*/
+    cursor: pointer;
 }
 
 .tab [type=radio] {
@@ -330,16 +341,15 @@ h2 {
 }
 
 .content {
+    /*overflow: hidden;*/
     display: inline-block;
     position: absolute;
-    top: 15px;
+    top: 65px;
     left: 0;
-    /*background: #ffffff;*/
     right: 0;
     bottom: 0;
     padding: 20px 155px 0px 155px;
     margin-top: 0px;
-    /*border: 1px solid #ccc;*/
 }
 [type=radio]:checked ~ label {
     background: #ffffff;
@@ -362,8 +372,11 @@ h2 {
     background: url("../images/layout/PC_clear.png") no-repeat center;
 }
 
-.service_portfolio_images {
-    margin-top: 116px;
+.service_portfolio img {
+    margin-top: 90px;
+    vertical-align:middle;
+    max-width: 409px;
+    max-height: 255px;
 }
 
 .service_portfolio_header h3 {
