@@ -67,6 +67,10 @@ h2 {
     color: #27283D;
 }
 
+.white {
+    color: #ffffff;
+}
+
 /* Layout
 ----------------------------------*/
 #wrapper {
@@ -159,6 +163,11 @@ h2 {
 .green {
     background-color: #17c2a4;
     border-bottom: 4px solid #14a58c;
+}
+
+.blue {
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5;
 }
 
 .services {
@@ -306,7 +315,7 @@ h2 {
 .portfolio {
     background-color: #ffdd99;
     width: 1440px;
-    height: 1420px;
+    height: 1422px;
     margin: 0 auto;
     text-align: center;
 }
@@ -398,6 +407,7 @@ h2 {
     width: 1440px;
     height: 820px;
     margin: 0 auto;
+    text-align: center;
 }
 
 /* Footer */
@@ -409,6 +419,7 @@ h2 {
 }
 
 .nav-footer {
+    padding-top: 35px;
     float: none;
     text-align: center;
 }
@@ -416,7 +427,7 @@ h2 {
 .nav-footer li {
     display: inline-block;
     padding: 5px 5px 5px 10px;
-    font: 13px Titillium Web, sans-serif;
+    font: 24px Titillium Web, sans-serif;
     background: url() no-repeat left 50%;
 }
 
@@ -426,7 +437,7 @@ h2 {
 
 .nav-footer a {
     text-decoration: none;
-    padding: 2px 1px;
+    padding: 0px 20px;
     color: #91AFC9;
 }
 
