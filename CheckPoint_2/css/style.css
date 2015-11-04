@@ -59,6 +59,22 @@ h2 {
     color: white;
 }
 
+h2:after {
+    display: block;
+    margin: 0 0 0px 678px;
+    background: url("../images/layout/services_line.png") center;
+    height: 4px;
+    content: " ";
+    text-shadow: none;
+    width: 87px;
+}
+
+h4 {
+    text-align: center;
+    letter-spacing: 0px;
+    margin-top: 25px;
+}
+
 .darkblue {
     color: #3C4761;
 }
@@ -82,18 +98,19 @@ h2 {
 .welcome {
     background-color: #87509c;
     width: 1440px;
-    height: 596px;
+    min-height: 596px;
     margin: 0 auto;
     text-align: center;
 }
 
 .welcome h1 {
-    width: 849px;
+    width: 1000px;
     height: 103px;
     overflow: hidden;
+    -moz-overflow : visible;
     text-align: center;
     /*text-indent: 44px;*/
-    padding: 227px 0px 0px;
+    padding: 182px 220px 52px;
     font: 700 42px Titillium Web, sans-serif;
     line-height: 50px;
     color: #F7F3EA;
@@ -138,26 +155,23 @@ h2 {
     background-color: #643a79;
 }
 
-.wrapper-h1 {
-    /*-webkit-column-height: 150px;*/
-    /*-moz-column-height: 150px;*/
-    /*column-height: 150px;*/
-}
-
 .button {
-    cursor: pointer;
     display: inline-block;
     text-transform: uppercase;
-    margin-top: 52px;
     text-decoration: none;
     height: 70px;
-    width: 292px;
+    min-width: 272px;
+    padding: 0px 10px 0px;
     border-radius: 5px 5px 5px 5px;
     background-color: #eb7d4b;
     color: white;
     text-align: center;
     line-height: 68px;
     border-bottom: 4px solid #c86a40;
+}
+
+.button:hover {
+    opacity: 0.75;
 }
 
 .green {
@@ -173,7 +187,7 @@ h2 {
 .services {
     background-color: #17c2a4;
     width: 1440px;
-    height: 747px;
+    min-height: 747px;
     margin: 0 auto;
     color: white;
 }
@@ -182,33 +196,12 @@ h2 {
     margin: 16px 174px 0px
 }
 
-/*.services h2 {*/
-    /*text-align: center;*/
-    /*padding: 100px 0px 0px 0px;*/
-    /*letter-spacing: 4px;*/
-    /*font: 700 40px Titillium Web, sans-serif;*/
-/*}*/
-
-.services_line {
-    height: 4px;
-    margin: 5px 0px 16px 0px;
-    text-align: center;
-    background: url("../images/layout/services_line.png") no-repeat center;
-}
-
-.services_content {
-    text-align: center;
-    letter-spacing: 0px;
-    margin: 0px 339px;
-    font: 400 18px Titillium Web, sans-serif;
-}
-
 .service {
     overflow: hidden;
     display: inline-block;
     text-align: center;
     width: 268px;
-    height: 560px;
+    /*height: 560px;*/
     margin: 0px 0px 0px 0px;
 }
 
@@ -236,6 +229,8 @@ h2 {
     font: 300 16px Titillium Web, sans-serif;
     line-height: 23px;
     height: 150px;
+    text-align: center;
+    letter-spacing: 0px;
 
 }
 
