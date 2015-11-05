@@ -86,6 +86,37 @@ h4 {
 .white {
     color: #ffffff;
 }
+/* Button
+----------------------------------*/
+.button {
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 70px;
+    min-width: 272px;
+    padding: 0px 10px 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #eb7d4b;
+    color: white;
+    text-align: center;
+    line-height: 68px;
+    border-bottom: 4px solid #c86a40;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.green {
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+}
+
+.blue {
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5;
+}
+/*End Button*/
 
 /* Layout
 ----------------------------------*/
@@ -135,7 +166,6 @@ h4 {
     text-align: center;
 }
 
-
 .welcome .navigation li{
     display: inline-block;
     padding: 5px 5px 5px 10px;
@@ -153,35 +183,6 @@ h4 {
 .welcome .navigation a:hover {
     border-radius: 5px 5px 5px 5px;
     background-color: #643a79;
-}
-
-.button {
-    display: inline-block;
-    text-transform: uppercase;
-    text-decoration: none;
-    height: 70px;
-    min-width: 272px;
-    padding: 0px 10px 0px;
-    border-radius: 5px 5px 5px 5px;
-    background-color: #eb7d4b;
-    color: white;
-    text-align: center;
-    line-height: 68px;
-    border-bottom: 4px solid #c86a40;
-}
-
-.button:hover {
-    opacity: 0.75;
-}
-
-.green {
-    background-color: #17c2a4;
-    border-bottom: 4px solid #14a58c;
-}
-
-.blue {
-    background-color: #30bae7;
-    border-bottom: 4px solid #299ec5;
 }
 
 .services {
@@ -231,7 +232,6 @@ h4 {
     height: 150px;
     text-align: center;
     letter-spacing: 0px;
-
 }
 
 .team {
@@ -323,7 +323,6 @@ h4 {
 }
 
 .tab {
-    /*float: left;*/
     display: inline-block;
     margin-top: 28px;
     left: 523px;
@@ -350,10 +349,7 @@ h4 {
     position: absolute;
     top: 65px;
     left: 0;
-    /*right: 0;*/
-    /*bottom: 0;*/
     padding: 20px 155px 0px 155px;
-    /*margin-top: 0px;*/
     width: 1130px;
     height: 880px;
     background: #ffdd99;
@@ -396,9 +392,73 @@ h4 {
 .testimonials {
     background-color: #d74680;
     width: 1440px;
-    height: 892px;
+    /*height: 892px;*/
     margin: 0 auto;
 }
+
+.responses{
+    margin:65px 172px 0px 172px;
+}
+.response{
+    text-align:left;
+    display:inline-block;
+    margin-bottom:136px;
+}
+.response:nth-child(odd){
+    padding-right:80px;
+}
+.avatar{
+    position:relative;
+    float:left;
+    display:block;
+}
+.avatar img{
+    max-height:96px;
+    max-width:96px;
+    border-radius:100%;
+}
+.message{
+    margin: 0px 0px 0px 144px;
+    height:100px;
+    width:350px;
+    font: 400 italic 21px/31px Titillium Web, sans-serif;
+    color: #ffffff;
+    padding-right:8px;
+    letter-spacing: 1px;
+}
+.message  p{
+    max-height:100px;
+    overflow:hidden;
+}
+
+.response_name{
+    display: inline-block;
+    margin: 15px 0px 0px 49px;
+    max-height:35px;
+    max-width:240px;
+    overflow:hidden;
+}
+
+.response_name h3 {
+    text-transform: uppercase;
+    font: 600 24px/26px Titillium Web, sans-serif;
+    color: #ffffff;
+}
+
+.response_prof{
+    padding-left: 145px;
+    margin-top: -10px;
+}
+
+.response_prof a {
+    text-decoration: none;
+    color: #fac996;
+}
+
+.response_prof a:hover {
+    opacity: 0.7;
+}
+
 
 .touch {
     background-color: #3c5499;
