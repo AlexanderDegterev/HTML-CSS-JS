@@ -75,7 +75,7 @@ h4 {
     margin-top: 25px;
 }
 
-.darkblue {
+.dark-blue {
     color: #3C4761;
 }
 
@@ -135,20 +135,19 @@ h4 {
 }
 
 .welcome h1 {
-    width: 1000px;
-    height: 103px;
-    overflow: hidden;
-    -moz-overflow : visible;
+    /*width: 1000px;*/
+    /*height: 103px;*/
+    /*overflow: hidden;*/
     text-align: center;
     /*text-indent: 44px;*/
-    padding: 182px 220px 52px;
+    padding: 228px 220px 52px;
     font: 700 42px Titillium Web, sans-serif;
     line-height: 50px;
     color: #F7F3EA;
 }
 
 .welcome .logo {
-    width: 118px;
+    width: 320px;
     height: 37px;
     float: left;
     margin: 56px 0px 0px 212px;
@@ -202,7 +201,6 @@ h4 {
     display: inline-block;
     text-align: center;
     width: 268px;
-    /*height: 560px;*/
     margin: 0px 0px 0px 0px;
 }
 
@@ -319,7 +317,7 @@ h4 {
     position: relative;
     min-height: 917px;
     clear: both;
-    margin: 15px 0;
+    margin: 15px 0px 91px 0px;
 }
 
 .tab {
@@ -335,7 +333,6 @@ h4 {
     border-radius: 7px 7px 7px 7px;
     margin-left: 9px;
     position: relative;
-    /*left: 523px;*/
     cursor: pointer;
 }
 
@@ -344,8 +341,6 @@ h4 {
 }
 
 .content {
-    /*overflow: hidden;*/
-    /*display: inline-block;*/
     position: absolute;
     top: 65px;
     left: 0;
@@ -354,11 +349,13 @@ h4 {
     height: 880px;
     background: #ffdd99;
 }
+
 [type=radio]:checked ~ label {
     background: #ffffff;
     border-bottom: 1px solid white;
     z-index: 2;
 }
+
 [type=radio]:checked ~ label ~ .content {
     z-index: 1;
 }
@@ -392,31 +389,35 @@ h4 {
 .testimonials {
     background-color: #d74680;
     width: 1440px;
-    /*height: 892px;*/
     margin: 0 auto;
 }
 
 .responses{
     margin:65px 172px 0px 172px;
 }
+
 .response{
     text-align:left;
     display:inline-block;
     margin-bottom:136px;
 }
+
 .response:nth-child(odd){
     padding-right:80px;
 }
+
 .avatar{
     position:relative;
     float:left;
     display:block;
 }
+
 .avatar img{
     max-height:96px;
     max-width:96px;
     border-radius:100%;
 }
+
 .message{
     margin: 0px 0px 0px 144px;
     height:100px;
@@ -426,6 +427,7 @@ h4 {
     padding-right:8px;
     letter-spacing: 1px;
 }
+
 .message  p{
     max-height:100px;
     overflow:hidden;
@@ -459,13 +461,58 @@ h4 {
     opacity: 0.7;
 }
 
-
 .touch {
     background-color: #3c5499;
     width: 1440px;
     height: 820px;
     margin: 0 auto;
     text-align: center;
+}
+
+.forms-wrapper {
+    width: 860px;
+    margin: 70px auto 20px;
+}
+
+.form-name{
+    float: left;
+}
+
+.form-email{
+    float: left;
+    margin-left: 38px;
+}
+
+.form-message {
+    clear: both;
+}
+
+.form-name input, .form-email input, .form-message textarea{
+    width: 391px;
+    height: 35px;
+    padding: 10px;
+    font: 400 18px Titillium Web, sans-serif;
+    color: #FFFFFF;
+    line-height: 1;
+    background: #273a71;
+    border: 0;
+    border-radius: 3px;
+}
+
+.form-message textarea{
+    margin: 25px 0 40px;
+    width: 840px;
+    min-height: 180px;
+    resize: vertical;
+}
+
+.form-name input:hover, .form-email input:hover, .form-message textarea:hover{
+    box-shadow: 0px 0px 2px 2px #ec952a inset;
+}
+
+.form-message textarea:focus, .form-name input:focus, .form-email input:focus{
+    background:#343D83;
+    box-shadow:none;
 }
 
 /* Footer */
