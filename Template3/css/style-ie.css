@@ -1,0 +1,10 @@
+.main-navigation li a{
+background: url("../images/layout/RADIUS-repeat.png") repeat-x 0 0;
+}
+.main-navigation li a:before{
+background: url("../images/layout/RADIUS-left.png") repeat-x 0 0;
+}
+.main-navigation li a:after{
+background: url("../images/layout/RADIUS-right.png") repeat-x 0 0;
+}
+
