@@ -93,7 +93,8 @@ h4 {
     text-transform: uppercase;
     text-decoration: none;
     height: 70px;
-    min-width: 272px;
+    min-width: 150px;
+    max-width: 300px;
     padding: 0px 10px 0px;
     border-radius: 5px 5px 5px 5px;
     background-color: #eb7d4b;
@@ -120,15 +121,15 @@ h4 {
 
 /* Layout
 ----------------------------------*/
-#wrapper {
-    max-width: 1650px;
-    height: 1900px;
+.wrapper {
+    max-width: 1440px;
+    /*height: 1900px;*/
     margin: auto;
 }
 
 .welcome {
     background-color: #87509c;
-    width: 1440px;
+    /*width: 1440px;*/
     min-height: 596px;
     margin: 0 auto;
     text-align: center;
@@ -231,7 +232,7 @@ h4 {
 
 .services {
     background-color: #17c2a4;
-    width: 1440px;
+    /*width: 1440px;*/
     min-height: 747px;
     margin: 0 auto;
     color: white;
@@ -279,7 +280,7 @@ h4 {
 
 .team {
     background-color: #e7f1f8;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 914px;
     margin: 0 auto;
 }
@@ -308,7 +309,7 @@ h4 {
 
 .skills {
     background-color: #ffffff;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 655px;
     margin: 0 auto;
 }
@@ -352,7 +353,7 @@ h4 {
 
 .portfolio {
     background-color: #ffdd99;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 1422px;
     margin: 0 auto;
     text-align: center;
@@ -433,7 +434,7 @@ h4 {
 
 .testimonials {
     background-color: #d74680;
-    width: 1440px;
+    /*width: 1440px;*/
     margin: 0 auto;
 }
 
@@ -508,7 +509,7 @@ h4 {
 
 .touch {
     background-color: #3c5499;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 820px;
     margin: 0 auto;
     text-align: center;
@@ -563,7 +564,7 @@ h4 {
 /* Footer */
 .page-footer {
     background-color: #344b8e;
-    width: 1440px;
+    /*width: 1440px;*/
     height: 212px;
     margin: 0 auto;
 }
