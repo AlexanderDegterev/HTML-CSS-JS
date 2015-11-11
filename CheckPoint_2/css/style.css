@@ -560,6 +560,28 @@ h4 {
     box-shadow:none;
 }
 
+.form-submit input{
+    display:inline-block;
+    cursor:pointer;
+    border:none;
+    font: 400 19px Titillium Web, sans-serif;
+    color: #FFFFFF;
+    line-height: 1.455;
+    text-decoration: none;
+    padding: 24px 84px;
+    border-radius: 4px;
+    background-color: #30bae7;
+    max-width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    box-shadow: 0 -4px #299ec5 inset;
+}
+
+.form-submit input:hover{
+    opacity: 0.7;
+}
+
 /* Footer */
 .page-footer {
     background-color: #344b8e;
