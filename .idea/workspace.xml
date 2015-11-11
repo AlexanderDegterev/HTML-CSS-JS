@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a74d62ed-afb8-4aac-b307-30746b43606c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_2/index.html" afterPath="$PROJECT_DIR$/CheckPoint_2/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template3/images/layout/aside_categories.png" afterPath="$PROJECT_DIR$/Template3/images/layout/aside_categories.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template3/images/layout/aside_categories_flag.png" afterPath="$PROJECT_DIR$/Template3/images/layout/aside_categories_flag.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template3/index.html" afterPath="$PROJECT_DIR$/Template3/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_2/css/style.css" afterPath="$PROJECT_DIR$/CheckPoint_2/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Template3/css/style.css" afterPath="$PROJECT_DIR$/Template3/css/style.css" />
@@ -41,7 +42,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint_2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="16" selection-start="884" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="10353">
+            <state line="65" column="16" selection-start="931" selection-end="1009" vertical-scroll-proportion="-12.32" vertical-offset="797" max-vertical-offset="10336">
               <folding />
             </state>
           </provider>
@@ -50,7 +51,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="141" column="74" selection-start="5654" selection-end="5654" vertical-scroll-proportion="-92.19231" vertical-offset="0" max-vertical-offset="2754">
+            <state line="317" column="41" selection-start="13014" selection-end="13027" vertical-scroll-proportion="-14.576923" vertical-offset="5010" max-vertical-offset="5729">
               <folding />
             </state>
           </provider>
@@ -59,7 +60,16 @@
       <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Template3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="105" column="31" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.27521613" vertical-offset="1594" max-vertical-offset="9741">
+            <state line="588" column="13" selection-start="10842" selection-end="10842" vertical-scroll-proportion="0.46636772" vertical-offset="9684" max-vertical-offset="12393">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="207" column="26" selection-start="3782" selection-end="3804" vertical-scroll-proportion="0.0" vertical-offset="3203" max-vertical-offset="6392">
               <folding />
             </state>
           </provider>
@@ -90,8 +100,8 @@
         <option value="$PROJECT_DIR$/CheckPoint_2/indexK.html" />
         <option value="$PROJECT_DIR$/CheckPoint_2/indexNAV.html" />
         <option value="$PROJECT_DIR$/CheckPoint_2/css/styleNAV.css" />
-        <option value="$PROJECT_DIR$/CheckPoint_2/css/style.css" />
         <option value="$PROJECT_DIR$/CheckPoint_2/index.html" />
+        <option value="$PROJECT_DIR$/CheckPoint_2/css/style.css" />
         <option value="$PROJECT_DIR$/Template3/index.html" />
         <option value="$PROJECT_DIR$/Template3/css/style.css" />
       </list>
@@ -333,6 +343,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="htdocs" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="CheckPoint_1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -451,7 +479,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="0" selection-start="3788" selection-end="3788" vertical-scroll-proportion="0.0" vertical-offset="3689" max-vertical-offset="7038" />
+        <state line="217" column="0" selection-start="3788" selection-end="3788" vertical-scroll-proportion="0.0" vertical-offset="3689" max-vertical-offset="7038">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -471,7 +501,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="228" column="1" selection-start="4073" selection-end="4073" vertical-scroll-proportion="0.0" vertical-offset="3876" max-vertical-offset="7633" />
+        <state line="228" column="1" selection-start="4073" selection-end="4073" vertical-scroll-proportion="0.0" vertical-offset="3876" max-vertical-offset="7633">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -491,7 +523,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="7" selection-start="4163" selection-end="4170" vertical-scroll-proportion="0.0" vertical-offset="3621" max-vertical-offset="6902" />
+        <state line="229" column="7" selection-start="4163" selection-end="4170" vertical-scroll-proportion="0.0" vertical-offset="3621" max-vertical-offset="6902">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -511,7 +545,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="1" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6902" />
+        <state line="76" column="1" selection-start="1159" selection-end="1159" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6902">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -531,7 +567,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="21" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="6630" />
+        <state line="64" column="21" selection-start="1019" selection-end="1019" vertical-scroll-proportion="0.0" vertical-offset="782" max-vertical-offset="6630">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -556,7 +594,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="238" column="21" selection-start="5066" selection-end="5066" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4318" />
+        <state line="238" column="21" selection-start="5066" selection-end="5066" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4318">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -581,7 +621,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="84" column="23" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="1989" />
+        <state line="84" column="23" selection-start="1415" selection-end="1415" vertical-scroll-proportion="0.0" vertical-offset="1222" max-vertical-offset="1989">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index1.html">
@@ -664,11 +706,6 @@
         <state line="353" column="20" selection-start="5858" selection-end="6085" vertical-scroll-proportion="4.678674" vertical-offset="2754" max-vertical-offset="7633" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="20" selection-start="1937" selection-end="1937" vertical-scroll-proportion="0.0" vertical-offset="1724" max-vertical-offset="6392" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_1/index_1.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="34" selection-start="667" selection-end="667" vertical-scroll-proportion="0.38173652" vertical-offset="51" max-vertical-offset="4233" />
@@ -688,23 +725,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/CheckPoint_2/css/style.css">
+    <entry file="file://$PROJECT_DIR$/CheckPoint_1/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="16" selection-start="884" selection-end="1067" vertical-scroll-proportion="0.0" vertical-offset="765" max-vertical-offset="10353">
+        <state line="207" column="26" selection-start="3782" selection-end="3804" vertical-scroll-proportion="0.0" vertical-offset="3203" max-vertical-offset="6392">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="141" column="74" selection-start="5654" selection-end="5654" vertical-scroll-proportion="-92.19231" vertical-offset="0" max-vertical-offset="2754">
+        <state line="317" column="41" selection-start="13014" selection-end="13027" vertical-scroll-proportion="-14.576923" vertical-offset="5010" max-vertical-offset="5729">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CheckPoint_2/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="65" column="16" selection-start="931" selection-end="1009" vertical-scroll-proportion="-12.32" vertical-offset="797" max-vertical-offset="10336">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Template3/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="105" column="31" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.27521613" vertical-offset="1594" max-vertical-offset="9741">
+        <state line="588" column="13" selection-start="10842" selection-end="10842" vertical-scroll-proportion="0.46636772" vertical-offset="9684" max-vertical-offset="12393">
           <folding />
         </state>
       </provider>
