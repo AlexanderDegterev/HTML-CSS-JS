@@ -587,7 +587,7 @@ nav {
 }
 
 .featured-box:nth-child(3) {
-    border-bottom:none;
+    border-right:none;
 }
 
 .featured-image {
