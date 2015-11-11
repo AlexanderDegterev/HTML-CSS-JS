@@ -653,7 +653,7 @@ nav {
     background: #fff;
     border-radius: 5px;
     border: solid 5px #ebe8b0;
-    margin: 4px 7px;
+    margin: 4px 5px 4px 5px;
 }
 
 .popular-box:before {
@@ -667,11 +667,11 @@ nav {
     border: 1px solid #d2cf99;
 }
 .popular-box:nth-child(4n+1) {
-    margin: 4px 4px 4px 0px;
+    margin: 4px 5px 4px 0px;
 }
 
 .popular-box:nth-child(4n+4) {
-    margin: 4px 0px 4px 4px;
+    margin: 4px 0px 4px 5px;
 }
 
 .popular-image {
