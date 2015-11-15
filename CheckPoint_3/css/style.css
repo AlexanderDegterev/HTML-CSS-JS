@@ -1,0 +1,466 @@
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,600,400italic,600italic,700,700italic,900);
+
+@font-face {
+    font-family: "ballpark weiner";
+url("../fonts/ballpark_weiner.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Helvetica Neue";
+url("../fonts/HelveticaNeueCyr-Roman.otf") format("opentype");
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "HelveticaM";
+url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 12px Helvetica Neue, sans-serif;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    color: #0ebaf2;
+    outline: none;
+}
+
+a:hover {
+    color: #000;
+}
+
+a:active {
+    color: #c60101;
+}
+
+a:visited {
+    /*color: #c60101;*/
+}
+
+ul li {
+    list-style: none;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table td {
+    vertical-align: top;
+}
+
+input, textarea, select, button {
+    font: normal 14px Helvetica Neue, sans-serif;
+    outline: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    color: #464646;
+}
+
+.dark-blue {
+    color: #3C4761;
+}
+
+.black{
+    color: #27283D;
+}
+
+.white {
+    color: #ffffff;
+}
+
+.grey {
+    color:#8e8e8e;
+}
+/* Button
+----------------------------------*/
+.button {
+    display: inline-block;
+    float: none;
+    text-transform: uppercase;
+    text-decoration: none;
+    height: 50px;
+    min-width: 150px;
+    max-width: 300px;
+    padding: 0px 10px 0px;
+    border-radius: 5px 5px 5px 5px;
+    background-color: #eb7d4b;
+    color: white;
+    text-align: center;
+    line-height: 48px;
+    border-bottom: 4px solid #c86a40;
+}
+
+.button:hover {
+    opacity: 0.75;
+}
+
+.green {
+    background-color: #17c2a4;
+    border-bottom: 4px solid #14a58c;
+}
+
+.blue {
+    background-color: #30bae7;
+    border-bottom: 4px solid #299ec5;
+}
+/*End Button*/
+
+/* Layout
+----------------------------------*/
+.wrapper {
+    width: 96%;/*1040px*/
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.header {
+    background: url("../images/layout/fon.jpg") repeat;
+    height: 100px;
+}
+
+.logo {
+    float: left;
+    margin: 20px 0px 0px 0px;
+    color: #e0e0e0;
+    font: normal 36px ballpark weiner, sans-serif;
+    text-decoration: none;
+}
+
+/*------------------------------------*\
+	NAVIGATION
+\*------------------------------------*/
+#nav{
+    float:left;
+    list-style:none;
+    margin: 20px 0px 0px 0px;
+    text-align: center;
+}
+#nav li{
+    float:right;
+    font: 400 12px Helvetica Neue, sans-serif;
+    padding: 5px 5px 0px 2px;
+    position:relative;
+    display:block;
+}
+#nav li a{
+    text-decoration: none;
+    padding: 7px 19px;
+    color: #e8e8e8;
+    /*background-color: #2f2f2f;*/
+    display:block;
+
+    text-shadow:1px 1px 1px #87509c; /* Тень текста, чтобы приподнять его на немного */
+    -moz-border-radius:2px;
+    -webkit-border-radius:2px;
+    border-radius:2px;
+}
+#nav li a:hover{
+    color:#fff;
+    background-color: #2f2f2f ;
+    border-radius: 5px 5px 0px 5px;
+    background:rgba(47,47,47,0.75);  /*ыглядит полупрозрачным*/
+    text-decoration:none;
+}
+
+/*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
+#nav ul{
+    list-style:none;
+    position:absolute;
+    left:-9999px; /* Скрываем за экраном, когда не нужно (данный метод лучше, чем display:none;) */
+    opacity:0; /* Устанавливаем начальное состояние прозрачности */
+    -webkit-transition:0.25s linear opacity; /* В Webkit выпадающие пункты будут проявляться */
+}
+#nav ul li{
+    padding-top:1px; /* Вводим отступ между li чтобы создать иллюзию разделенных пунктов меню */
+    float:none;
+}
+#nav ul a{
+    white-space:nowrap; /* Останавливаем перенос текста и создаем многострочный выпадающий пункт */
+    display:block;
+}
+#nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
+    left:0; /* Приносим его обратно на экран, когда нужно */
+    opacity:1; /* Делаем непрозрачным */
+}
+#nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
+    background:#2f2f2f;
+    background:rgba(47,47,47,0.75);  /*Выглядит полупрозрачным*/
+    text-decoration:none;
+}
+#nav li:hover ul a{ /* Изменяем некоторые стили верхнего уровня при выводе выпадающего пункта */
+    text-decoration:none;
+    -webkit-transition:-webkit-transform 0.075s linear;
+}
+#nav li:hover ul li a:hover{ /* Устанавливаем стили для выпадающих пунктов, когда курсор наводится на конкретный пункт */
+    background: #da1eec;
+    background:rgba(51,51,51,0.75);  /*Будет полупрозрачным*/
+    text-decoration:none;
+    -moz-transform:scale(1.05);
+    -webkit-transform:scale(1.05);
+}
+/*end navigation*/
+
+.search {
+    float: left;
+    width: 38.654%;/*402px;*/
+    height: 26px;
+    margin-top: 20px;
+    border-radius: 5px 5px 0 0;
+}
+
+.search form {
+    overflow: hidden;
+}
+
+.search input {
+    float: left;
+}
+
+.slider {
+    background: url("../images/layout/fon.jpg") repeat;
+    margin-bottom: 50px;
+    height: 40.865%;/*425px;*/
+    border-bottom: 3px solid #000000;
+    min-height: 320px;
+
+}
+
+.slider_content {
+    float: left;
+    display: inline-block;
+    width: 42.307%;/*440*/
+    height: 370px;
+}
+
+.slider_content h1 {
+    color: #ffffff;
+    font: 600 24px/28px Helvetica Neue, sans-serif;
+}
+
+.slider_content p {
+    color: #ffffff;
+    font: 400 12px/18px Helvetica Neue, sans-serif;
+}
+
+.slider_images {
+    display: inline-block;
+    width: 52.288%;/*575px;*/
+    /*height: 350px;*/
+    padding: 10px 10px;
+    max-width: 575px;
+    max-height: 350px;
+    /*width: 100%;*/
+    /*height: auto;*/
+    /*background-color: green;*/
+}.slider_images img {
+     width: auto;
+     max-width: 100%;
+     height: auto;
+ }
+
+.featured_blocks {
+    /*height: 300px;*/
+    width: 100%;
+    /*background-color: green;*/
+}
+
+.featured_block {
+    display: inline-block;
+    position: relative;
+    overflow:hidden ;
+    padding: 10px 25px;
+    top: -100px;
+    margin: 0px 13px;
+    width: 172px;
+    height: 345px;
+    background: url("../images/layout/featured_block.png") no-repeat;
+}
+
+.featured_block h2 {
+    color: #171717;
+    margin-bottom: 25px;
+    font: 600 15px HelveticaM, sans-serif;
+    text-align: center;
+}
+
+.featured_block p {
+    margin-bottom: 15px;
+}
+
+.block_bold {
+    font-weight: 600;
+    margin-top: 70px;
+}
+
+.recent_work {
+    /*Вот тут ошибка указать только ширину*/
+    min-height: 560px;
+    width: 100%;
+}
+
+.recent_work h3 {
+    margin: 0px 38px;
+    font: 600 15px Helvetica Neue, sans-serif;
+}
+
+.recent_work h3:after {
+    background: url("../images/layout/background_line.png") repeat-x;
+    display: inline-block;
+    height: 6px;
+    width: 100%;
+    content: " ";
+    text-shadow: none;
+}
+
+.recent_content {
+    display: inline-block;
+    float: left;
+    position: relative;
+    overflow:hidden ;
+    padding: 10px 38px;
+    /*margin: 0px 13px;*/
+    width: 172px;
+    min-height: 420px;
+}
+
+.recent_content p {
+    margin-bottom: 15px;
+}
+
+.recent_pictures {
+    /*display: inline-block;*/
+    /*float: left;*/
+    position: relative;
+    overflow:hidden;
+    /*width: 780px;*/
+    min-height: 420px;
+    clear: none;
+}
+
+.resent_img {
+    display: inline-block;
+    overflow:hidden;
+    margin: 14px 14px;
+    line-height: 200px;
+    height: 200px;
+    width: 220px;
+    text-align: center;
+}
+
+.resent_img img {
+    vertical-align:middle;
+    max-width: 220px;
+    max-height: 200px;
+}
+
+/* Footer */
+#footer {
+    /*height: 280px;*/
+    background: url("../images/layout/fon.jpg") repeat;
+    border-top: 3px solid #000000;
+}
+
+.portfolio {
+    overflow: hidden;
+    clear: both;
+    display: inline-block;
+    margin: 0 10px;
+    min-height: 250px;
+    width: 220px;
+}
+
+.portfolio h3 {
+    margin: 5px 0px 15px 0px;
+    font: 600 16px Helvetica Neue, sans-serif;
+    text-align: left;
+}
+
+.portfolio h3:after {
+    background: url("../images/layout/background_line_footer.png") repeat-x;
+    display: inline-block;
+    height: 1px;
+    width: 100%;
+    content: " ";
+    text-shadow: none;
+}
+
+.portfolio p {
+    margin: 0px 0px 15px 0px;
+}
+
+#footer_extra {
+    height: 72px;
+    background: url("../images/layout/fon_extra.jpg") repeat;
+}
+
+.footer_extra_content {
+    float: left;
+    color: #818181;
+    font: 400 12px Helvetica Neue, sans-serif;
+    line-height: 20px;
+    padding: 20px 0px 0px 30px;
+    width: 300px;
+}
+
+.footer_extra_copyright {
+    float: right;
+    color: #818181;
+    font: 400 12px Helvetica Neue, sans-serif;
+    line-height: 20px;
+    padding: 20px 0px 0px 30px;
+    width: 300px;
+}
+/* end footer */
+
+@media (max-width: 768px){
+    #nav{
+        display: none;
+    }
+
+    .search {
+        display: none;
+    }
+
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+    #footer_extra {
+        height: 177px;
+        text-align: center;
+    }
+    .footer_extra_content {
+        float: none;
+        padding: 20px 0px 0px 30px;
+        width: 96%;
+    }
+
+    .footer_extra_copyright {
+        float: none;
+        padding: 20px 0px 0px 30px;
+        width: 96%;
+    }
+
+
+}
+
+
+
+
+
+
