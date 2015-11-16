@@ -99,6 +99,7 @@ h4 {
     border-radius: 5px 5px 5px 5px;
     background-color: #eb7d4b;
     color: white;
+    text-overflow: ellipsis;
     text-align: center;
     line-height: 68px;
     border-bottom: 4px solid #c86a40;

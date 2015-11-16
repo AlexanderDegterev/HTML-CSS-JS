@@ -24,7 +24,7 @@ url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
 }
 
 body {
-    font: normal 12px Helvetica Neue, sans-serif;
+    font: normal 16px Helvetica Neue, sans-serif;
 }
 
 img {
@@ -101,6 +101,7 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #eb7d4b;
     color: white;
     text-align: center;
+    text-overflow: ellipsis;
     line-height: 48px;
     border-bottom: 4px solid #c86a40;
 }
@@ -137,7 +138,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     margin: 20px 0px 0px 0px;
     color: #e0e0e0;
-    font: normal 36px ballpark weiner, sans-serif;
+    font: normal 2.25em ballpark weiner, sans-serif;
     text-decoration: none;
 }
 
@@ -249,12 +250,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider_content h1 {
     color: #ffffff;
-    font: 600 24px/28px Helvetica Neue, sans-serif;
+    font: 600 1.5em/28px Helvetica Neue, sans-serif;/*24/28*/
+    margin-bottom: 15px;
 }
 
 .slider_content p {
     color: #ffffff;
-    font: 400 12px/18px Helvetica Neue, sans-serif;
+    font: 400 0.75em/18px Helvetica Neue, sans-serif;/*12/18*/
+    margin-bottom: 15px;
 }
 
 .slider_images {
@@ -294,12 +297,13 @@ h1, h2, h3, h4, h5, h6 {
 .featured_block h2 {
     color: #171717;
     margin-bottom: 25px;
-    font: 600 15px HelveticaM, sans-serif;
+    font: 600 0.75em HelveticaM, sans-serif;
     text-align: center;
 }
 
 .featured_block p {
     margin-bottom: 15px;
+    font: 400 0.75em HelveticaM, sans-serif;
 }
 
 .block_bold {
@@ -315,7 +319,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .recent_work h3 {
     margin: 0px 38px;
-    font: 600 15px Helvetica Neue, sans-serif;
+    font: 600 0.9375em Helvetica Neue, sans-serif;
 }
 
 .recent_work h3:after {
@@ -340,6 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .recent_content p {
     margin-bottom: 15px;
+    font: 400 0.75em HelveticaM, sans-serif;
 }
 
 .recent_pictures {
@@ -386,7 +391,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio h3 {
     margin: 5px 0px 15px 0px;
-    font: 600 16px Helvetica Neue, sans-serif;
+    font: 600 1em Helvetica Neue, sans-serif;
     text-align: left;
 }
 
@@ -401,6 +406,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .portfolio p {
     margin: 0px 0px 15px 0px;
+    font: 400 0.75em HelveticaM, sans-serif;
 }
 
 #footer_extra {
@@ -411,7 +417,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer_extra_content {
     float: left;
     color: #818181;
-    font: 400 12px Helvetica Neue, sans-serif;
+    font: 400 0.75em Helvetica Neue, sans-serif;
     line-height: 20px;
     padding: 20px 0px 0px 30px;
     width: 300px;
@@ -420,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer_extra_copyright {
     float: right;
     color: #818181;
-    font: 400 12px Helvetica Neue, sans-serif;
+    font: 400 0.75em Helvetica Neue, sans-serif;
     line-height: 20px;
     padding: 20px 0px 0px 30px;
     width: 300px;
