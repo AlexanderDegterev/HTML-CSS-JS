@@ -152,7 +152,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #nav li{
     float:right;
-    font: 400 12px Helvetica Neue, sans-serif;
+    font: 400 0.75em Helvetica Neue, sans-serif;
     padding: 5px 5px 0px 2px;
     position:relative;
     display:block;
@@ -217,7 +217,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .search {
     float: left;
-    width: 38.654%;/*402px;*/
+    width: 20%;/*402px;*/
     height: 26px;
     margin-top: 20px;
     border-radius: 5px 5px 0 0;
@@ -229,6 +229,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .search input {
     float: left;
+    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7) inset;*/
+    /*transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;*/
 }
 
 .search input[type="text"]{
@@ -242,6 +244,21 @@ h1, h2, h3, h4, h5, h6 {
     border: solid 1px #4E4848;
     border-radius: 24px;
     border-right: none;
+    text-indent: 1.5em;
+    /*box-shadow: inset 0 1px 0px 0px #d8d8d8;*/
+}
+
+.search input[type="text"]:hover {
+    -moz-box-shadow:0 0 20px #555;
+    -webkit-box-shadow:0 0 20px #555;
+    box-shadow:0 0 20px #555;
+}
+/**/
+.search input:focus::-moz-placeholder {
+    color: transparent;
+}
+.search input:focus::-webkit-input-placeholder {
+    color: transparent;
 }
 
 .search input[type="submit"]{
@@ -250,6 +267,7 @@ h1, h2, h3, h4, h5, h6 {
     height: 25px;
     cursor: pointer;
     border: none;
+    outline: none;
     background: url("../images/layout/search.png") no-repeat 4px 3px;
 }
 
@@ -284,13 +302,9 @@ h1, h2, h3, h4, h5, h6 {
 .slider_images {
     display: inline-block;
     width: 52.288%;/*575px;*/
-    /*height: 350px;*/
     padding: 10px 10px;
     max-width: 575px;
     max-height: 350px;
-    /*width: 100%;*/
-    /*height: auto;*/
-    /*background-color: green;*/
 }.slider_images img {
      width: auto;
      max-width: 100%;
@@ -298,9 +312,7 @@ h1, h2, h3, h4, h5, h6 {
  }
 
 .featured_blocks {
-    /*height: 300px;*/
     width: 100%;
-    /*background-color: green;*/
 }
 
 .featured_block {
@@ -333,7 +345,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .recent_work {
-    /*Вот тут ошибка указать только ширину*/
     min-height: 560px;
     width: 100%;
 }
@@ -358,9 +369,7 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     overflow:hidden ;
     padding: 10px 40px;
-    /*margin: 0px 13px;*/
     width: 172px;
-    /*min-height: 420px;*/
 }
 
 .recent_content p {
@@ -369,11 +378,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .recent_pictures {
-    /*display: inline-block;*/
-    /*float: left;*/
     position: relative;
-    overflow:hidden;
-    /*width: 780px;*/
     min-height: 420px;
     clear: none;
 }
@@ -396,7 +401,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Footer */
 #footer {
-    /*height: 280px;*/
     background: url("../images/layout/fon.jpg") repeat;
     border-top: 3px solid #000000;
 }
@@ -430,8 +434,29 @@ h1, h2, h3, h4, h5, h6 {
     font: 400 0.75em HelveticaM, sans-serif;
 }
 
+.team-row {
+    display: inline-block;
+    width: 220px;
+}
+figure figcaption {
+    font-size: 10px;
+    font-weight: 300;
+    color: #818181;
+}
+
+.team-row figure {
+    max-height: 100px;
+    max-width: 100px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.team-row figure + figure {
+    margin-left: 43px;
+}
+
 #footer_extra {
-    height: 72px;
+    min-height: 72px;
     background: url("../images/layout/fon_extra.jpg") repeat;
 }
 
@@ -453,10 +478,42 @@ h1, h2, h3, h4, h5, h6 {
     width: 300px;
 }
 /* end footer */
-
-@media (max-width: 768px){
-    #nav{
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    #nav li{
+        padding: 5px 0px 0px 0px;
+        font-size: 1.2em;
+    }
+    .search {
         display: none;
+    }
+    .logo {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 850px){
+    #nav li{
+        padding: 5px 0px 0px 0px;
+    }
+    .search {
+        width:15%;
+    }
+
+    .search input[type="text"]{
+        width: 80px;
+        height: 25px;
+        margin-top: 5px;
+        padding: 0 10px;
+    }
+    .search input[type="submit"]{
+        margin: 10px 0px 0px -98px;
+}
+}
+
+@media (max-width: 769px){
+    #nav{
+        /*display: none;*/
     }
 
     .search {
