@@ -1,22 +1,20 @@
-@import url(https://fonts.googleapis.com/css?family=Titillium+Web:400,300,300italic,600,400italic,600italic,700,700italic,900);
-
 @font-face {
     font-family: "ballpark weiner";
-url("../fonts/ballpark_weiner.ttf") format("truetype");
-    font-style: normal;
-    font-weight: normal;
+    src: url("../fonts/ballpark_weiner.ttf") format("truetype");
+    font-style:normal;
+    font-weight:normal;
 }
 
 @font-face {
     font-family: "Helvetica Neue";
-url("../fonts/HelveticaNeueCyr-Roman.otf") format("opentype");
-    font-style: normal;
-    font-weight: normal;
+    src: url("../fonts/HelveticaNeueCyr-Roman.otf") format("opentype");
+    font-style:normal;
+    font-weight:normal;
 }
 
 @font-face {
     font-family: "HelveticaM";
-url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
+    src: url("../fonts/HelveticaNeueCyr-Medium.otf") format("opentype");
 }
 * {
     margin: 0;
@@ -175,6 +173,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px 5px 0px 5px;
     background:rgba(47,47,47,0.75);  /*ыглядит полупрозрачным*/
     text-decoration:none;
+    transform: scale(1.5);
 }
 
 /*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
