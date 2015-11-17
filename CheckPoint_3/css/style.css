@@ -91,19 +91,18 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     display: inline-block;
     float: none;
-    text-transform: uppercase;
     text-decoration: none;
     height: 50px;
     min-width: 150px;
     max-width: 300px;
     padding: 0px 10px 0px;
     border-radius: 5px 5px 5px 5px;
-    background-color: #eb7d4b;
+    background-color: #9b9c9c;
     color: white;
     text-align: center;
     text-overflow: ellipsis;
     line-height: 48px;
-    border-bottom: 4px solid #c86a40;
+    /*border-bottom: 4px solid #c86a40;*/
 }
 
 .button:hover {
@@ -232,6 +231,28 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
 }
 
+.search input[type="text"]{
+    width: 130px;
+    height: 25px;
+    margin-top: 5px;
+    padding: 0 10px;
+    color: #979797;
+    background: #2f2f2f;
+    font-size: 13px;
+    border: solid 1px #4E4848;
+    border-radius: 24px;
+    border-right: none;
+}
+
+.search input[type="submit"]{
+    margin: 10px 0px 0px -148px;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    border: none;
+    background: url("../images/layout/search.png") no-repeat 4px 3px;
+}
+
 .slider {
     background: url("../images/layout/fon.jpg") repeat;
     margin-bottom: 50px;
@@ -336,10 +357,10 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     position: relative;
     overflow:hidden ;
-    padding: 10px 38px;
+    padding: 10px 40px;
     /*margin: 0px 13px;*/
     width: 172px;
-    min-height: 420px;
+    /*min-height: 420px;*/
 }
 
 .recent_content p {
@@ -445,6 +466,9 @@ h1, h2, h3, h4, h5, h6 {
     .logo {
         width: 100%;
         text-align: center;
+    }
+    .recent_pictures {
+        overflow:visible ;
     }
     #footer_extra {
         height: 177px;
