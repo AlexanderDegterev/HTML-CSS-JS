@@ -5,10 +5,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=Edge">
     <title>Portfolio</title>
     <link href="css/style.css" rel="stylesheet" type="text/css"/>
+    <link href="css/jquery.bxslider.css" rel="stylesheet" />
+    <!-- jQuery library (served from Google) -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+    <!-- bxSlider Javascript file -->
+    <script src="js/jquery.bxslider.min.js"></script>
+    <!-- bxSlider CSS file -->
     <script src="js/modernizr-custom.js"></script>
     <!--[if lte IE 8]>
     <script src="js/respond.js"/></script>
     <![endif]-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.bxslider').bxSlider();
+        });
+    </script>
 </head>
 <body>
 
@@ -74,10 +85,25 @@
     </div>
 </div>
 <!--end header-->
-
 <div class="slider">
     <div class="wrapper">
-        <div class="slider_content">
+        <ul class="bxslider">
+            <li>
+                    <h1>Portfolio Website Theme: Perfect for Anyone</h1>
+                    <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed
+                        cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet. Duis sagittis
+                        ipsum. </h2>
+
+                    <h3>Sed dignissim lacinia nunc. Curabitur tortor. Pellentesque nibh. Aenean quam. In scelerisque sem at dolor. Maecenas mattis.</h3>
+
+                <a class="button forslider" href="#">See Our Work</a>
+                <img src="images/layout/picture4.jpg"/>
+            </li>
+            <li><img src="images/layout/picture2.jpg" /></li>
+            <li><img src="images/layout/picture3.jpg" /></li>
+            <li><img src="images/layout/picture1.jpg" /></li>
+        </ul>
+        <!--<div class="slider_content">
             <h1>Portfolio Website Theme: Perfect for Anyone</h1>
 
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus
@@ -91,7 +117,7 @@
         <div class="slider_images">
             <img src="images/layout/LCD.png" alt=":LCD">
 
-        </div>
+        </div>-->
     </div>
 </div>
 
@@ -106,7 +132,7 @@
                 facete sea cu, deleniti adipiscing id eum. Mel alia consul constituto ex, no his inani reformidans
                 accommoda re. Et eos viderer appellantur, ferri inimicus an ius, ne inermis deseruisse ius.</p>
 
-            <p class="block_bold">Read More</p>
+            <a class="block_bold" href="#">Read More</a>
 
         </div>
 

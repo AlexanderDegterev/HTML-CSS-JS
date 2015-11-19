@@ -106,6 +106,10 @@ h1, h2, h3, h4, h5, h6 {
 .button:hover {
     opacity: 0.75;
 }
+.forslider {
+    position: absolute;
+    margin: 24% 0% 0% 3%;
+}
 
 .green {
     background-color: #17c2a4;
@@ -121,7 +125,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Layout
 ----------------------------------*/
 .wrapper {
-    width: 96%;/*1040px*/
+    width: 100%;/*1040px*/
     max-width: 1040px;
     margin: 0 auto;
 }
@@ -133,7 +137,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     float: left;
-    margin: 20px 0px 0px 0px;
+    width: 13%;
+    margin: 2% 0% 0% 0%;
     color: #e0e0e0;
     font: normal 2.25em ballpark weiner, sans-serif;
     text-decoration: none;
@@ -144,13 +149,14 @@ h1, h2, h3, h4, h5, h6 {
 \*------------------------------------*/
 #nav{
     float:left;
+    width: 67%;
     list-style:none;
-    margin: 20px 0px 0px 0px;
+    margin: 2% 0% 0% 0%;
     text-align: center;
 }
 #nav li{
     float:right;
-    font: 400 0.75em Helvetica Neue, sans-serif;
+    font: 400 0.8em/21px Helvetica Neue, sans-serif;
     padding: 5px 5px 0px 2px;
     position:relative;
     display:block;
@@ -173,7 +179,7 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 5px 5px 0px 5px;
     background:rgba(47,47,47,0.75);  /*ыглядит полупрозрачным*/
     text-decoration:none;
-    transform: scale(1.5);
+    /*transform: scale(1.5);*/
 }
 
 /*--- ВЫПАДАЮЩИЕ ПУНКТЫ ---*/
@@ -195,6 +201,8 @@ h1, h2, h3, h4, h5, h6 {
 #nav li:hover ul{ /* Выводим выпадающий пункт при наведении курсора */
     left:0; /* Приносим его обратно на экран, когда нужно */
     opacity:1; /* Делаем непрозрачным */
+    font: 400 1.25em/21px Helvetica Neue, sans-serif;
+    z-index: 5000;
 }
 #nav li:hover a{ /* Устанавливаем стили для верхнего уровня, когда выводится выпадающий список */
     background:#2f2f2f;
@@ -218,7 +226,7 @@ h1, h2, h3, h4, h5, h6 {
     float: left;
     width: 20%;/*402px;*/
     height: 26px;
-    margin-top: 20px;
+    margin-top: 2%;
     border-radius: 5px 5px 0 0;
 }
 
@@ -314,7 +322,7 @@ h1, h2, h3, h4, h5, h6 {
     width: 100%;
 }
 
-.featured_block {
+.featured_blocks .featured_block {
     display: inline-block;
     position: relative;
     overflow:hidden ;
@@ -326,21 +334,29 @@ h1, h2, h3, h4, h5, h6 {
     background: url("../images/layout/featured_block.png") no-repeat;
 }
 
-.featured_block h2 {
+.featured_blocks .featured_block h2 {
     color: #171717;
     margin-bottom: 25px;
     font: 600 0.75em HelveticaM, sans-serif;
     text-align: center;
 }
 
-.featured_block p {
+.featured_blocks .featured_block p {
     margin-bottom: 15px;
     font: 400 0.75em HelveticaM, sans-serif;
 }
 
-.block_bold {
-    font-weight: 600;
+.featured_blocks .featured_block p span {
+    margin-bottom: 65px;
+}
+
+a.block_bold {
+    display: block;
+    margin-bottom: 15px;
+    font: 600 0.75em HelveticaM, sans-serif;
+    color: #171717;
     margin-top: 70px;
+    text-decoration: none;
 }
 
 .recent_work {
