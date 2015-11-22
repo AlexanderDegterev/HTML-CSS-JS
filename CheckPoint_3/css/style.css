@@ -138,8 +138,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .logo {
     float: left;
-    width: 13%;
-    margin: 2% 0% 0% 0%;
+    width: 17%;
+    margin: 2% 0% 0% 1%;
     color: #e0e0e0;
     font: normal 2.25em ballpark weiner, sans-serif;
     text-decoration: none;
@@ -149,8 +149,9 @@ h1, h2, h3, h4, h5, h6 {
 	NAVIGATION
 \*------------------------------------*/
 #nav{
+    display: block;
     float:left;
-    width: 67%;
+    /*width: 61%;*/
     list-style:none;
     margin: 2% 0% 0% 0%;
     text-align: center;
@@ -223,6 +224,30 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*end navigation*/
 
+.nav2{
+    display: block;
+    height: 220px;
+    margin: -55px 0px 0px 0px;
+    float:left;
+    text-align: left;
+}
+.nav2 li{
+    opacity: 0;
+    float:left;
+    width: 70px;
+    font: 400 0.725em/21px Helvetica Neue, sans-serif;
+    position:relative;
+    display:block;
+}
+.nav2 li a{
+    display:block;
+    text-decoration: none;
+    padding: 7px 15px;
+    color: #000000;
+    display:block;
+    text-shadow:1px 1px 1px #87509c; /* Тень текста, чтобы приподнять его на немного */
+}
+
 .search {
     float: left;
     width: 20%;/*402px;*/
@@ -257,9 +282,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .search input[type="text"]:hover {
-    -moz-box-shadow:0 0 20px #555;
-    -webkit-box-shadow:0 0 20px #555;
-    box-shadow:0 0 20px #555;
+    -moz-box-shadow:0 0 10px #555;
+    -webkit-box-shadow:0 0 10px #555;
+    box-shadow:0 0 10px #555;
 }
 /**/
 .search input:focus::-moz-placeholder {
@@ -321,13 +346,15 @@ h1, h2, h3, h4, h5, h6 {
 
 .featured_blocks {
     width: 100%;
-    max-height: 299px;
+    text-align: center;
+    /*max-height: 299px;*/ /*don't using'*/
 }
 
 .featured_blocks .featured_block {
     display: inline-block;
     position: relative;
     overflow:hidden ;
+    text-align: left;
     padding: 20px 30px;
     top: -100px;
     margin: 0px 9px;
@@ -339,8 +366,8 @@ h1, h2, h3, h4, h5, h6 {
 .featured_blocks .featured_block h2 {
     color: #171717;
     margin-bottom: 21px;
-    font: 400 0.95em HelveticaM, sans-serif;
-    text-align: left;
+    font: 400 0.9em HelveticaM, sans-serif;
+    /*text-align: left;*/
 }
 
 .featured_blocks .featured_block p {
@@ -395,7 +422,8 @@ a.block_bold {
 }
 
 .recent_pictures {
-    position: relative;
+    /*position: relative;*/
+    margin-left: 252px;
     min-height: 420px;
     clear: none;
 }
@@ -410,10 +438,49 @@ a.block_bold {
     text-align: center;
 }
 
+.resent_img:hover li {
+    /*background: url("../images/layout/magnetic_tool.png") no-repeat center;*/
+    /*max-width: 70px;*/
+    /*max-height: 200px;*/
+    /*z-index: 5000;*/
+    /*box-shadow:0 0 10px #555;*/
+    opacity: 1;
+}
+
+.resent_img:hover {
+    background: url("../images/layout/magnetic_tool.png") no-repeat center;
+}
+
+.resent_img span {
+    z-index: -1;
+    display: block;
+    height: 200px;
+    width: 220px;
+    margin: -200px 0px 0px 0px;
+    padding: 0;
+    color: #444;
+    font-size: 18px;
+    text-decoration: none;
+    text-align: center;
+    -webkit-transition: .3s /*ease-in-out*/;
+    transition: .3s /*ease-in-out*/;
+    opacity: 0;
+}
+
+.resent_img:hover+span {
+    bottom: -36px;
+    opacity: 1;
+}
+
 .resent_img img {
     vertical-align:middle;
     max-width: 220px;
     max-height: 200px;
+}
+
+.resent_img img:hover  {
+    opacity: 0.7;
+    transition:0.25ms;
 }
 
 /* Footer */
@@ -482,8 +549,8 @@ figure figcaption {
     color: #818181;
     font: 400 0.75em Helvetica Neue, sans-serif;
     line-height: 20px;
-    padding: 20px 0px 0px 30px;
-    width: 300px;
+    padding: 1.5% 0% 0% 2%;
+    width: 45%
 }
 
 .footer_extra_copyright {
@@ -491,14 +558,14 @@ figure figcaption {
     color: #818181;
     font: 400 0.75em Helvetica Neue, sans-serif;
     line-height: 20px;
-    padding: 20px 0px 0px 30px;
-    width: 300px;
+    padding: 1.5% 0% 0% 2%;
+    width: 30%;
 }
 /* end footer */
-@media screen and (min-width: 500px) and (max-width: 768px) {
+@media screen and (min-width: 543px) and (max-width: 768px) {
     #nav li{
         padding: 5px 0px 0px 0px;
-        font-size: 1.2em;
+        font-size: 1.0em;
     }
     .search {
         display: none;
@@ -531,6 +598,14 @@ figure figcaption {
 @media (max-width: 769px){
     #nav{
         /*display: none;*/
+        float: none;
+        width: 100%;
+        margin: 0 auto;
+        padding:0px 0px 0px 0px;
+    }
+
+    #nav li{
+        padding: 5px 0px 0px 0px;
     }
 
     .search {
@@ -543,6 +618,7 @@ figure figcaption {
     }
     .recent_pictures {
         overflow:visible ;
+        margin-left: 0px;
     }
     #footer_extra {
         height: 177px;
@@ -559,9 +635,17 @@ figure figcaption {
         padding: 20px 0px 0px 30px;
         width: 96%;
     }
-
-
 }
+
+@media screen and (max-width: 483px){
+    .header {
+        height: 250px;
+    }
+
+    #nav li{
+        padding: 0px 0px 0px 0px;
+        float: none;
+    }
 
 
 
