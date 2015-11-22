@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a74d62ed-afb8-4aac-b307-30746b43606c" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_3/index.html" afterPath="$PROJECT_DIR$/CheckPoint_3/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/CheckPoint_3/css/style.css" afterPath="$PROJECT_DIR$/CheckPoint_3/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a74d62ed-afb8-4aac-b307-30746b43606c" name="Default" comment="" />
     <ignored path="htdocs.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -30,7 +26,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint_2/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="76" column="65" selection-start="2843" selection-end="2888" vertical-scroll-proportion="-12.423077" vertical-offset="969" max-vertical-offset="6919">
+            <state line="76" column="65" selection-start="2843" selection-end="2888" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="6919">
               <folding />
             </state>
           </provider>
@@ -39,7 +35,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint_2/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="542" column="24" selection-start="10068" selection-end="10088" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="10727">
+            <state line="542" column="24" selection-start="10068" selection-end="10088" vertical-scroll-proportion="0.0" vertical-offset="9214" max-vertical-offset="10727">
               <folding />
             </state>
           </provider>
@@ -57,7 +53,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Template3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="46" selection-start="462" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="12529">
+            <state line="21" column="46" selection-start="462" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="12529">
               <folding />
             </state>
           </provider>
@@ -66,7 +62,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/CheckPoint_3/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="132" column="107" selection-start="5465" selection-end="5465" vertical-scroll-proportion="0.57894737" vertical-offset="1786" max-vertical-offset="5117">
+            <state line="132" column="107" selection-start="5465" selection-end="5465" vertical-scroll-proportion="-0.35628742" vertical-offset="2244" max-vertical-offset="5117">
               <folding>
                 <element signature="e#4211#4886#0" expanded="false" />
               </folding>
@@ -77,7 +73,7 @@
       <file leaf-file-name="jquery.bxslider.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint_3/css/jquery.bxslider.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="116" column="13" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-26.08" vertical-offset="1320" max-vertical-offset="4012">
+            <state line="116" column="13" selection-start="2333" selection-end="2333" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="4012">
               <folding />
             </state>
           </provider>
@@ -86,7 +82,7 @@
       <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/CheckPoint_3/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="329" column="16" selection-start="6865" selection-end="6865" vertical-scroll-proportion="-2.12" vertical-offset="5540" max-vertical-offset="9758">
+            <state line="329" column="16" selection-start="6865" selection-end="6865" vertical-scroll-proportion="0.0" vertical-offset="5540" max-vertical-offset="9758">
               <folding />
             </state>
           </provider>
@@ -501,15 +497,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24967907" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18998717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19191271" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3983287" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -517,11 +513,11 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -735,7 +731,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_2/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="65" selection-start="2843" selection-end="2888" vertical-scroll-proportion="-12.423077" vertical-offset="969" max-vertical-offset="6919">
+        <state line="76" column="65" selection-start="2843" selection-end="2888" vertical-scroll-proportion="0.0" vertical-offset="969" max-vertical-offset="6919">
           <folding />
         </state>
       </provider>
@@ -783,35 +779,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_3/08/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="300" column="28" selection-start="5659" selection-end="5683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8024">
-          <folding />
-        </state>
+        <state line="300" column="28" selection-start="5659" selection-end="5683" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="8024" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_3/08/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="27" selection-start="9215" selection-end="9215" vertical-scroll-proportion="5.4432178" vertical-offset="255" max-vertical-offset="4114">
-          <folding />
-        </state>
+        <state line="218" column="27" selection-start="9215" selection-end="9215" vertical-scroll-proportion="5.4432178" vertical-offset="255" max-vertical-offset="4114" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_3/css/jquery.bxslider.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="116" column="13" selection-start="2333" selection-end="2333" vertical-scroll-proportion="-26.08" vertical-offset="1320" max-vertical-offset="4012">
+        <state line="116" column="13" selection-start="2333" selection-end="2333" vertical-scroll-proportion="0.0" vertical-offset="1320" max-vertical-offset="4012">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_3/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="329" column="16" selection-start="6865" selection-end="6865" vertical-scroll-proportion="-2.12" vertical-offset="5540" max-vertical-offset="9758">
+        <state line="329" column="16" selection-start="6865" selection-end="6865" vertical-scroll-proportion="0.0" vertical-offset="5540" max-vertical-offset="9758">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CheckPoint_3/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="132" column="107" selection-start="5465" selection-end="5465" vertical-scroll-proportion="0.57894737" vertical-offset="1786" max-vertical-offset="5117">
+        <state line="132" column="107" selection-start="5465" selection-end="5465" vertical-scroll-proportion="-0.35628742" vertical-offset="2244" max-vertical-offset="5117">
           <folding>
             <element signature="e#4211#4886#0" expanded="false" />
           </folding>
