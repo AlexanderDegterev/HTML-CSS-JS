@@ -75,6 +75,10 @@ h1, h2, h3, h4, h5, h6 {
     color: #464646;
 }
 
+section,article,nav,aside,header,footer,hgroup {
+    display: block;
+}
+
 .white {
     color: #ffffff;
 }
