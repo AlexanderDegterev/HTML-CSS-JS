@@ -224,7 +224,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*end navigation*/
 
-.nav2{
+.nav-resent {
     display: block;
     height: 220px;
     margin: 0 0px 0px 0px;
@@ -238,7 +238,7 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 0;  
     transition: 500ms;
 }
-.nav2 li{
+.nav-resent li{
     /*opacity: 0;*/
     float:left;
     width: 70px;
@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
     display:block;
     margin-top: 140px;
 }
-.nav2 li a{
+.nav-resent li a{
     display:block;
     text-decoration: none;
     padding: 7px 15px;
@@ -465,7 +465,7 @@ a.block_bold {
 .resent_img:hover {
     transition: 500ms;    
 }
-.resent_img:hover .nav2{
+.resent_img:hover .nav-resent {
     opacity: 1;
     transition: 500ms;    
 }

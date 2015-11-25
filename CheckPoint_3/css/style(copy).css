@@ -1,13 +1,19 @@
 @font-face {
     font-family: "ballpark weiner";
-    src: url("../fonts/ballpark_weiner.ttf") format("truetype");
+    src: url("../fonts/ballpark_weiner.ttf") format("truetype"),
+    src: url("../fonts/ballpark_weiner.eot"); /* EOT file for IE */
+    src: local('☺'),
+    url('../fonts/ballpark_weiner.eot?') format('embedded-opentype'),
     font-style:normal;
     font-weight:normal;
 }
 
 @font-face {
     font-family: "Helvetica Neue";
-    src: url("../fonts/HelveticaNeueCyr-Roman.otf") format("opentype");
+    src: url("../fonts/HelveticaNeueCyr-Roman.otf") format("opentype"),
+    src: url("../fonts/HelveticaNeueCyr-Roman.eot"); /* EOT file for IE */
+    src: local('☺'),
+    url('../fonts/HelveticaNeueCyr-Roman.eot?') format('embedded-opentype'),
     font-style:normal;
     font-weight:normal;
 }
@@ -22,7 +28,7 @@
 }
 
 body {
-    font: normal 16px Helvetica Neue, sans-serif;
+    font: normal 16px "Helvetica Neue", sans-serif;
 }
 
 img {
@@ -101,7 +107,6 @@ h1, h2, h3, h4, h5, h6 {
     text-overflow: ellipsis;
     font: normal 13px Helvetica Neue, sans-serif;
     line-height: 36px;
-    /*border-bottom: 4px solid #c86a40;*/
 }
 
 .button:hover {
@@ -224,6 +229,38 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*end navigation*/
 
+.nav-resent {
+    display: block;
+    height: 220px;
+    margin: 0px 10px 0px 15px;
+    float:left;
+    text-align: left;
+    background: url("../images/layout/magnetic_tool2.png") no-repeat 40% 40%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 220px;  
+    opacity: 0;  
+    transition: 500ms;
+}
+.nav-resent li{
+    /*opacity: 0;*/
+    float:left;
+    width: 50px;
+    font: 400 0.725em/21px Helvetica Neue, sans-serif;
+    position:relative;
+    display:block;
+    margin-top: 120px;
+}
+.nav-resent li a{
+    display:block;
+    text-decoration: none;
+    padding: 7px 15px;
+    color: #000000;
+    display:block;
+    text-shadow:1px 1px 1px #87509c; /* Тень текста, чтобы приподнять его на немного */
+}
+
 .search {
     float: left;
     width: 20%;/*402px;*/
@@ -238,8 +275,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .search input {
     float: left;
-    /*box-shadow: 0 1px 1px rgba(0, 0, 0, 0.7) inset;*/
-    /*transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;*/
 }
 
 .search input[type="text"]{
@@ -254,7 +289,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 24px;
     border-right: none;
     text-indent: 1.5em;
-    /*box-shadow: inset 0 1px 0px 0px #d8d8d8;*/
 }
 
 .search input[type="text"]:hover {
@@ -367,11 +401,13 @@ a.block_bold {
 .recent_work {
     min-height: 560px;
     width: 100%;
+    text-align: center;
 }
 
 .recent_work h3 {
     margin: 0px 38px 14px 38px;
     font: 600 0.9375em Helvetica Neue, sans-serif;
+    text-align: left;
 }
 
 .recent_work h3:after {
@@ -398,33 +434,71 @@ a.block_bold {
 }
 
 .recent_pictures {
-    /*position: relative;*/
-    margin-left: 252px;
+    margin-left: 279px;
     min-height: 420px;
     clear: none;
+}
+.column::after {
+    content: '';
+    clear: both;
+    display: block;
+}
+.column {
+    position: relative;
+    display: inline-block;
+    overflow: hidden;
+    width: 220px;
+    height: 200px;
+    margin: 14px 17px;
+    padding: 0;
+}
+
+.column:nth-child(3n+1) {
+    margin-left: 0;
 }
 
 .resent_img {
     display: inline-block;
+    position: relative;
     overflow:hidden;
-    margin: 14px 14px;
+    margin: 0px 0px;
     line-height: 200px;
     height: 200px;
     width: 220px;
-    text-align: center;
+    text-align: center;   
+    transition: 500ms; 
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+.resent_img li {
+    transition: 500ms;
 }
 
 .resent_img:hover li {
-    /*background: url("../images/layout/magnetic_tool.png") no-repeat center;*/
-    /*max-width: 70px;*/
-    /*max-height: 200px;*/
-    /*z-index: 5000;*/
-    /*box-shadow:0 0 10px #555;*/
     opacity: 1;
+    transition: 500ms;
 }
 
 .resent_img:hover {
-    background: url("../images/layout/magnetic_tool.png") no-repeat center;
+    height: 200px;
+    width: 220px;
+    overflow: hidden;
+    transition: 500ms;
+    -webkit-transform: scale(1.3);
+    transform: scale(1.3);
+}
+
+.resent_img:hover .nav-resent {
+    opacity: 1;
+    transition: 500ms;    
+}
+
+.resent_img:hover img{
+    opacity: 0.7;
+    transition: 500ms;
 }
 
 .resent_img span {
@@ -441,6 +515,7 @@ a.block_bold {
     -webkit-transition: .3s /*ease-in-out*/;
     transition: .3s /*ease-in-out*/;
     opacity: 0;
+    display: none;
 }
 
 .resent_img:hover+span {
@@ -459,100 +534,11 @@ a.block_bold {
     transition:0.25ms;
 }
 
-.effect {
-    position: relative;
-}
-.effect img {
-    width: 100%;
-    height: 100%;
-}
-
-.eff-1-1 {
-    width: 300px;
-    height: 200px;
-    overflow: hidden;
-}
-
-.eff-1-1 .caption {
-    position: absolute;
-    top: -100%;
-    left: 0px;
-    /*background: url("../images/layout/magnetic_tool.png") no-repeat center;*/
-    background: rgba(0,0,0,0.7);
-    width: 100%;
-    height: 100%;
-    color: #fff;
-    -o-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
-    -moz-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
-    -webkit-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
-    -ms-transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
-    transition: all 0.3s cubic-bezier(0.4, 0, 1, 1) 0s;
-}
-
-.eff-1-1 .caption .nav-resent {
-    display: block;
-    top:-100%;
-    height: 100%;
-    margin: 145px 0px 0px 0px;
-    float:left;
-    text-align: left;
-}
-
-.eff-1-1 .caption .nav-resent li{
-    opacity: 1;
-    float:left;
-    width: 70px;
-    font: 400 0.725em/21px Helvetica Neue, sans-serif;
-    position:relative;
-    display:block;
-}
-
-.eff-1-1 .caption .nav-resent li a{
-    display:block;
-    text-decoration: none;
-    padding: 7px 15px;
-    color: #000000;
-    display:block;
-    text-shadow:1px 1px 1px #87509c; /* Тень текста, чтобы приподнять его на немного */
-}
-
-.eff-1-1 .caption h4 {
-    font-size: 21px;
-    font-weight: 700;
-    text-transform: uppercase;
-    text-align: center;
-    border-bottom: 1px solid white;
-    padding-bottom: 20px;
-    margin-top: 20px;
-}
-.eff-1-1 .caption p {
-    margin: 15px 0px;
-    text-align: center;
-    font-style: italic;
-    padding: 0px 10px;
-}
-.eff-1-1 .caption a.btn {
-    width: 120px;
-    text-align: center;
-    display: block;
-    background: #68432d;
-    color: #fff;
-    padding: 10px 0px;
-    border-radius: 5px;
-    margin: 0px auto 0px auto;
-}
-.eff-1-1:hover .caption {
-    top: 0px;
-}
-
-/*.eff-1-1:hover .caption .nav2 {*/
-    /*top: auto;*/
-/*}*/
-
 /* Footer */
 #footer {
     background: url("../images/layout/fon.jpg") repeat;
     border-top: 3px solid #000000;
+    text-align: center;
 }
 
 .portfolio {
@@ -582,10 +568,12 @@ a.block_bold {
 .portfolio p {
     margin: 0px 0px 15px 0px;
     font: 400 0.75em HelveticaM, sans-serif;
+    text-align: left;
 }
 
 .team-row {
     display: inline-block;
+    text-align: left;
     width: 220px;
 }
 figure figcaption {
@@ -599,6 +587,11 @@ figure figcaption {
     max-width: 100px;
     overflow: hidden;
     display: inline-block;
+}
+
+.team-row figure img {
+    max-height: 46px;
+    max-width: 46px;
 }
 
 .team-row figure + figure {
@@ -692,13 +685,13 @@ figure figcaption {
     }
     .footer_extra_content {
         float: none;
-        padding: 20px 0px 0px 30px;
+        padding: 20px 0px 0px 0px;
         width: 96%;
     }
 
     .footer_extra_copyright {
         float: none;
-        padding: 20px 0px 0px 30px;
+        padding: 20px 0px 0px 0px;
         width: 96%;
     }
 }
@@ -712,7 +705,23 @@ figure figcaption {
         padding: 0px 0px 0px 0px;
         float: none;
     }
+}
 
+@media (max-width: 1050px){
+    .column {
+        margin: 14px 14px;
+    }
+    .column:nth-child(3n+1) {
+        margin: 14px 14px;
+    }
+}
+
+@media (max-width: 522px){
+    .recent_content {
+        width: 100%;
+        padding: 0px 2px;
+    }
+}
 
 
 

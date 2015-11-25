@@ -41,7 +41,6 @@
     width: 42.307%;
     color: #ffffff;
     font: 600 1.5em/28px Helvetica Neue, sans-serif;/*24/28*/
-    /*margin-bottom: 15px;*/
 }
 
 .bx-wrapper h2,.bx-wrapper h3 {
@@ -54,13 +53,8 @@
 }
 
 .bx-wrapper .bx-viewport {
-	/*-moz-box-shadow: 0 0 5px #ccc;*/
-	/*-webkit-box-shadow: 0 0 5px #ccc;*/
-	/*box-shadow: 0 0 5px #ccc;*/
-	/*border:  5px solid #fff;*/
 	left: -5px;
-	/*background: #fff;*/
-	
+
 	/*fix other elements on the page moving (on Chrome)*/
 	-webkit-transform: translatez(0);
 	-moz-transform: translatez(0);
@@ -72,10 +66,8 @@
 .bx-wrapper .bx-pager,
 .bx-wrapper .bx-controls-auto {
 	position: absolute;
-    /*float: right;*/
 	bottom: 5px;
     left: 915px;
-	/*width: 100%;*/
 }
 
 /* LOADER */
@@ -117,9 +109,6 @@
 	height: 6px;
 	margin: 0 5px;
 	outline: 0;
-	/*-moz-border-radius: 5px;*/
-	/*-webkit-border-radius: 5px;*/
-	/*border-radius: 5px;*/
 }
 
 .bx-wrapper .bx-pager.bx-default-pager a:hover,
@@ -236,7 +225,6 @@
         width: 42.307%;
         color: #ffffff;
         font: 600 1.5em/28px Helvetica Neue, sans-serif;/*24/28*/
-        /*margin-bottom: 15px;*/
     }
 
     .bx-wrapper h2,.bx-wrapper h3 {

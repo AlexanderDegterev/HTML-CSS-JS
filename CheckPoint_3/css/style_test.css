@@ -230,14 +230,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 /*end navigation*/
 
-.nav2{
+.nav-resent {
     display: block;
     height: 220px;
     margin: -55px 0px 0px 0px;
     float:left;
     text-align: left;
 }
-.nav2 li{
+.nav-resent li{
     opacity: 0;
     float:left;
     width: 70px;
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
     position:relative;
     display:block;
 }
-.nav2 li a{
+.nav-resent li a{
     display:block;
     text-decoration: none;
     padding: 7px 15px;
